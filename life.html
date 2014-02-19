@@ -1,0 +1,29 @@
+---
+layout: default
+title: Life
+---
+<div id="home">
+	<!-- 置顶Blog -->
+	<ul class="posts">
+		<li><strong style="color:#ff0000;">[Top]</strong> &nbsp; <a href="howtonewblog.html">How to new blog();</a></li>
+	</ul>
+
+	<h1 id="movies">Movies</h1>
+	<ul class="posts">
+		{% for post in site.tags.Movies %}
+			<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+		{% endfor %}
+	</ul>
+	<h1 id="ideas">Ideas</h1>
+	<ul class="posts">
+		{% for post in site.tags.Ideas %}
+			<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+		{% endfor %}
+	</ul>
+	<h1 id="others">Others</h1>
+	<ul class="posts">
+		{% for post in site.tags.Others %}
+			<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+		{% endfor %}
+	</ul>
+</div>
