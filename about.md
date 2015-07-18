@@ -15,6 +15,7 @@ MOOCs
 ===
 
 Following are the classes I completed.
+
 * [Machine Learning](https://www.coursera.org/maestro/api/certificate/get_certificate?course_id=973756),
 * [Model Thinking](https://www.coursera.org/maestro/api/certificate/get_certificate?course_id=972512),
 * [The Data Scientist's Toolbox](https://www.coursera.org/maestro/api/certificate/get_certificate?course_id=973489),
