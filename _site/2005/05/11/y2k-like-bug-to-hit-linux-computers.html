@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Y2K-like bug to hit Linux computers</title>
+  <meta name="description" content="Great news! worth read. &lt;blockquote&gt;&lt;p&gt;Tuesday, January 19 2038. Time: 03:14:07 GMT. If Linux programmers get nightmares, it’s about this date an...">
+  <link href="http://feeds.feedburner.com/anildigital" rel="alternate" title="Anil Wadghule" type="application/atom+xml" />
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="/2005/05/11/y2k-like-bug-to-hit-linux-computers.html">
+  <link rel="alternate" type="application/rss+xml" title="Jiaming Shen's Homepage" href="/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Jiaming Shen's Homepage</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about.html">About</a>
+          
+        
+          
+          <a class="page-link" href="/blogs.html">Blogs</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/research.html">Research</a>
+          
+        
+          
+        
+      </div>
+
+      </div> 
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Y2K-like bug to hit Linux computers</h1>
+    <p class="post-meta">May 11, 2005</p>
+  </header>
+
+  <article class="post-content">
+    <p>Great news! worth read. &lt;blockquote&gt;&lt;p&gt;Tuesday, January 19 2038. Time: 03:14:07 GMT. If Linux programmers get nightmares, it’s about this date and time. Immediately after that second is crossed, current computer systems running on Linux will grind to a halt or go into a loop. This will trip up a lot of databases. No, this is not another hoax raised by some anti-Linux lobby. It is Linux’s own Y2K nightmare, says Businessworld.&lt;/p&gt;&lt;p&gt;If you ask what this 2038 bug is, you will have to put up some technical argot. The bug has its origins in the way the C language, which has been used to write Linux, calculates time. C uses the ‘time_t’ data type to represent dates and times. (‘time_t’ is an integer that counts the number of seconds since 12.00 a.m. GMT, January 1 1970.)&lt;/p&gt;&lt;p&gt;This data is stored in 32 bits, or units of memory. The first of these bits is for the positive or negative sign, and the remaining 31 are used to store the number. The highest number that these 31 bits can store works out to 2147483647.&lt;/p&gt;&lt;p&gt;Calculated from the start of January 1 1970, this number would represent the 2038 time and date given at the top. Problems would arise when the system times of computers running on Linux reach this number. They can’t go any forward and their value actually would change to – 2147483647, which translated to December 13 1901! That will lead many programs to return errors or crash altogether.&lt;/p&gt;&lt;p&gt;It’s more damaging than the Y2K bug. That’s because Y2K mostly involved higher-level applications such as credit card payment and inventory management. The 2038 bug, on the other hand, affects the basic time-keeping function.&lt;/p&gt;&lt;p&gt;“I would guess the biggest issue would be in the embedded field, where software isn’t changed all that often, if at all. Process controllers, routers, mobile phones, game consoles, telecom switches and the like would be the biggest victims,” says Raju Mathur, GNU and Linux consultant and president of the Linux Delhi Users Group.&lt;/p&gt;&lt;p&gt;He, however, adds that the rate at which we are changing technology, most systems are unlikely to use 32-bit processing by the time we get to 2038.&lt;/p&gt;&lt;p&gt;But what about the present? Many applications running on Linux could soon be making calculations for dates 30 years away – say, for mortgage and insurance calculations – and could start giving out error messages well before D-day. The problem could be widespread because more and more corporates today are migrating to Linux because of the better security it offers.&lt;/p&gt;&lt;p&gt;“The problem is not on the radar of most people, except the techies,” says Charles Assissi, editor, Chip magazine.&lt;/p&gt;&lt;p&gt;How can the problem be sorted? Modern Linux programs could use 64-bit or longer time_t data storage to overcome the problem. As for the existing systems, the way the C language stores time_t data could be changed and then all the programs could be recompiled. All this is easier said than done.&lt;/p&gt;&lt;p&gt;“There must be millions, if not billions of lines of C code floating around that use the time_t value. Locating them, changing them, managing programs for which source isn’t available, updating embedded systems, redeploying, is, in my opinion, an impossible task,” says Mathur. Will that be another lucrative opportunity for India’s army of coders? &lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;source: <a href="http://in.rediff.com/money/2005/may/06linux.htm">http://in.rediff.com/money/2005/may/06linux.htm</a>&lt;/p&gt;&lt;p&gt;<em>Technorati tag:</em> <a title="Linux category on Technorati, the blog search engine" href="http://www.technorati.com/tag/linux" target="_blank" rel="tag">Linux</a>&lt;/p&gt;</p>
+
+<!--     <div class="view_comments_link">
+      <a href="/2005/05/11/y2k-like-bug-to-hit-linux-computers.html#disqus_thread">View Comments</a> <br />
+      <div id="disqus_thread"></div>
+      <script type="text/javascript" src="http://disqus.com/forums/anilsweblog/embed.js"></script>
+      <noscript><a href="http://anilsweblog.disqus.com/?url=ref">View the discussion thread</a></noscript>
+    </div> -->
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Jiaming Shen's Homepage</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <!-- <li>Jiaming Shen's Homepage</li> -->
+          <li><a href="mailto:mickeysjm@gmail.com">mickeysjm@gmail.com</a></li>
+          <li>Currently in SJTU</li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/mickeystroller">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">mickeystroller</span>
+            </a>
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">So we beat on, boats against the current, borne back ceaselessly into the past.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+    <!-- <script type="text/javascript">
+//<![CDATA[
+(function() {
+    var links = document.getElementsByTagName('a');
+    var query = '?';
+    for(var i = 0; i < links.length; i++) {
+      if(links[i].href.indexOf('#disqus_thread') >= 0) {
+        query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+      }
+    }
+    document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/anilsweblog/get_num_replies.js' + query + '"></' + 'script>');
+  })();
+//]]>
+</script>
+ -->
+
+    <script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-274286-6', 'auto');
+ ga('send', 'pageview');
+
+</script>
+
+
+  </body>
+
+</html>

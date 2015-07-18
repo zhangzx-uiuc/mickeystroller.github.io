@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jiaming Shen&#39;s Homepage</title>
+    <description>So we beat on, boats against the current, borne back ceaselessly into the past.</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 15 Jul 2015 21:24:45 +0800</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2015 21:24:45 +0800</lastBuildDate>
+    <generator>Jekyll v1.4.3</generator>
+    
+      <item>
+        <title>The Next Step Is Functional at Lambda Days, Kraków, Poland</title>
+        <description>&lt;p&gt;I presented a talk ‘The Next Step is Functional” at &lt;a href=&quot;http://www.lambdadays.org/lambdadays2015/anil-wadghule&quot;&gt;Lambda Days, 2015&lt;/a&gt;, Kraków, Poland&lt;/p&gt;
+
+&lt;p&gt;Slides - &lt;a href=&quot;https://speakerdeck.com/anildigital/the-next-step-is-functional&quot;&gt;https://speakerdeck.com/anildigital/the-next-step-is-functional&lt;/a&gt;&lt;/p&gt;
+
+&lt;script async=&quot;&quot; class=&quot;speakerdeck-embed&quot; data-id=&quot;943df57053da013210585e0d3d2da78b&quot; data-ratio=&quot;1.77777777777778&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Fri, 27 Feb 2015 00:00:00 +0800</pubDate>
+        <link>/2015/02/27/Next-Step-Is-Functional-Lambda-Days-Krakow-Poland.html</link>
+        <guid isPermaLink="true">/2015/02/27/Next-Step-Is-Functional-Lambda-Days-Krakow-Poland.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Functional Programming in JavaScript at Expertalks, Pune</title>
+        <description>&lt;p&gt;I presented a talk ‘Functional Programming in JavaScript” at &lt;a href=&quot;http://www.meetup.com/expertalks/&quot;&gt;Expertalks&lt;/a&gt;, Pune&lt;/p&gt;
+
+&lt;p&gt;Slides - &lt;a href=&quot;https://speakerdeck.com/anildigital/functional-programming-in-javascript&quot;&gt;https://speakerdeck.com/anildigital/functional-programming-in-javascript&lt;/a&gt;&lt;/p&gt;
+
+&lt;script async=&quot;&quot; class=&quot;speakerdeck-embed&quot; data-id=&quot;2e83f62918cd4f259b212cb66dfe84d3&quot; data-ratio=&quot;1.77777777777778&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Sat, 31 Jan 2015 00:00:00 +0800</pubDate>
+        <link>/2015/01/31/Functional-Programming-In-JavaScript-Expertalks-Pune.html</link>
+        <guid isPermaLink="true">/2015/01/31/Functional-Programming-In-JavaScript-Expertalks-Pune.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>SOLID - The Next Step is Functional at FP Days 2014, London</title>
+        <description>&lt;p&gt;I presented a talk ‘SOLID - The Next Step s Functional” at &lt;a href=&quot;http://fpdays.net/2014/&quot;&gt;FP Days&lt;/a&gt;, London&lt;/p&gt;
+
+&lt;p&gt;Slides - coming soon&lt;/p&gt;
+</description>
+        <pubDate>Mon, 24 Nov 2014 00:00:00 +0800</pubDate>
+        <link>/2014/11/24/SOLID-The-Next-Step-Is-Functional-FP-Days-2014.html</link>
+        <guid isPermaLink="true">/2014/11/24/SOLID-The-Next-Step-Is-Functional-FP-Days-2014.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>SOLID Design Principles in Ruby talk at RedDot Ruby Conf, Singapore</title>
+        <description>&lt;p&gt;At &lt;a href=&quot;http://www.reddotrubyconf.com/&quot;&gt;RedDot Ruby Conf Singapore 2014&lt;/a&gt;, I presented on SOLID Design Principles in Ruby.&lt;/p&gt;
+
+&lt;p&gt;Slides - &lt;a href=&quot;https://speakerdeck.com/anildigital/solid-design-principles-in-ruby&quot;&gt;https://speakerdeck.com/anildigital/solid-design-principles-in-ruby&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe src=&quot;https://www.flickr.com/photos/anildigital/14554971463/player/&quot; width=&quot;500&quot; height=&quot;333&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; oallowfullscreen=&quot;&quot; msallowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;script async=&quot;&quot; class=&quot;speakerdeck-embed&quot; data-id=&quot;f31f9a00957a01313c83768fd0aa6b5a&quot; data-ratio=&quot;1.77777777777778&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Fri, 27 Jun 2014 00:00:00 +0800</pubDate>
+        <link>/2014/06/27/solid-design-principles-in-ruby-reddot-ruby-conf-2014.html</link>
+        <guid isPermaLink="true">/2014/06/27/solid-design-principles-in-ruby-reddot-ruby-conf-2014.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>SOLID Design Principles in Ruby, Ruby Conf India talk</title>
+        <description>&lt;p&gt;At &lt;a href=&quot;http://rubyconfindia.org/2014/&quot;&gt;RubyConf India 2014&lt;/a&gt;, I presented on SOLID Design Principles in Ruby.&lt;/p&gt;
+
+&lt;p&gt;Slides - &lt;a href=&quot;https://speakerdeck.com/anildigital/solid-design-principles-in-ruby&quot;&gt;https://speakerdeck.com/anildigital/solid-design-principles-in-ruby&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7002/13406394105_4ea5f2d14a.jpg&quot; alt=&quot;Moi talking at RubyConf India 2014&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 22 Mar 2014 00:00:00 +0800</pubDate>
+        <link>/2014/03/22/solid-design-principles-in-ruby.html</link>
+        <guid isPermaLink="true">/2014/03/22/solid-design-principles-in-ruby.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Git Essential</title>
+        <description>&lt;p&gt;&lt;strong&gt;Git Essential 系列教程看完后的笔记，非常零乱，Just for Reference &lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-1-config&quot;&gt;Lesson 1: config&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;homebrew &lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;进入http://brew.sh/  参考git essential视频1   &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;此时与系统自带的git版本冲突，开始安装vim &lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;vim &lt;br /&gt;
+brew search vim -&amp;gt; brew install macvim&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lesson-2-config&quot;&gt;Lesson 2: config&lt;/h3&gt;
+&lt;p&gt;git config —global user.name/emai = “XXX”   命令 &lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-3-init&quot;&gt;Lesson 3: init&lt;/h3&gt;
+&lt;p&gt;git init &lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-4-add&quot;&gt;☆Lesson 4: add&lt;/h3&gt;
+&lt;p&gt;git status &amp;amp; git add &lt;br /&gt;
+理解add的含义：一个文件三个不同的状态： &lt;br /&gt;
+1. Changes to be committed&lt;br /&gt;
+2. Changes not staged for commit &lt;br /&gt;
+3. Untracked files (原始创建文件的状态) &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;trick:
+git add .  (加一个. 表示当前文件夹下所有文件全部add)&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-5-commit&quot;&gt;☆Lesson 5: commit&lt;/h3&gt;
+&lt;p&gt;git commit &lt;br /&gt;
+git commit -a （-a表示追加 add+commit 一同完成）&lt;br /&gt;
+git commit -m ‘commit message’&lt;br /&gt;
+git commit -am ‘commit message’&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-6-ignore&quot;&gt;Lesson 6: ignore&lt;/h3&gt;
+&lt;p&gt;vim .gitignore (在project的根目录下使用) &lt;br /&gt;
+.gitignore文件下文件命名法则：&lt;br /&gt;
+.DS_Store&lt;br /&gt;
+tmp&lt;br /&gt;
+&lt;em&gt;.swp~&lt;br /&gt;
+test/&lt;/em&gt;.txt （不追踪test下的txt文件）&lt;br /&gt;
+!test/master.txt  （在上一条的规则下，追踪master.txt）&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-7-theory&quot;&gt;Lesson 7: Theory&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Working Directory (project文件夹) &lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Staging Area(index) (一次次的add) (: 每修改一个地方之后是add，而完成一个整个有意义的修改之后再是commit -&amp;gt; commit message 才能有意义) &lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Git Repository (核心是project下的 .git文件夹) &lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;lesson-8-theory--internals&quot;&gt;☆Lesson 8: Theory —— Internals&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Blob : How git stores file contents  &lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Tree : How git stores Directory list &lt;br /&gt;
+           ①Header information&lt;br /&gt;
+           ②For each file and directory in the directory:&lt;br /&gt;
+               file permissions &lt;br /&gt;
+               object type(blob or tree)&lt;br /&gt;
+               sha-1&lt;br /&gt;
+               filename&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Commit : How git stores “snapshot!”&lt;br /&gt;
+            author information&lt;br /&gt;
+            committer information&lt;br /&gt;
+            commit message&lt;br /&gt;
+            sha-1 of any parent commits&lt;br /&gt;
+            sha-1 of the tree that the commit points
+  两个图片的例子&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Git Reference:&lt;br /&gt;
+  两个例子： ①branch / head
+                     ②merge影响&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;lesson-9-diff&quot;&gt;Lesson 9: diff&lt;/h3&gt;
+&lt;p&gt;git diff  filename     比对文件修改处&lt;br /&gt;
+git diff –staged filename   和目前staged状态的文件对比&lt;br /&gt;
+git diff HEAD filename   和目前commit状态的文件对比&lt;br /&gt;
+不加filename 对比整个project目录下得修改&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-10-log&quot;&gt;Lesson 10: log&lt;/h3&gt;
+&lt;p&gt;git log&lt;br /&gt; 
+git log –oneline&lt;br /&gt;
+git log –graph&lt;br /&gt;
+git log –pretty=“%h, %cn, %cr “  修饰符参考： http://git-scm.com/docs/git-log&lt;br /&gt;
+gitk 图形化页面&lt;br /&gt;
+之后使用:q 退出&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-11-branch&quot;&gt;☆Lesson 11: branch&lt;/h3&gt;
+&lt;p&gt;git branch  : 查看所有branch以及目前所在的branch&lt;br /&gt;
+git branch experimental-1  : 创建一个branch叫做branch,但目前不在这个branch&lt;br /&gt;
+git checkout experimental-1 : 切换到这个branch&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;注意理解commit与branch的关系&lt;br /&gt;
+如果仅仅修改contents而不commit，在所有的branch上都会显示files被modified&lt;br /&gt;
+直到在某个branch上修改被commit之后，才会在对应的branch上显示出来。&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;git checkout -b bug-fix-1 ： 创建branch: bug-fix-1 与此同时切换到这个branch上&lt;br /&gt;
+git log –online –graph –all：显示所有branch上得commit&lt;br /&gt;
+git log –online –graph –all –decorate: &lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-12--merge&quot;&gt;Lesson 12:  merge&lt;/h3&gt;
+&lt;p&gt;git alias gl= “git log –oneline –graph –all –decorate”&lt;br /&gt;
+git merge branch_name : 把branch_name代表的branch合并到目前所在的branch，这个merge操作相当于一个commit.&lt;br /&gt;
+git branch -d branch_name: 删除branch&lt;br /&gt;
+git rebase branch_name: 含义见5:30处&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-13-github&quot;&gt;Lesson 13: github&lt;/h3&gt;
+&lt;p&gt;配置ssh链接github的教程&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-14-github-tour&quot;&gt;Lesson 14: github-tour&lt;/h3&gt;
+&lt;p&gt;简介github功能&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-15-remote-push-pull&quot;&gt;☆Lesson 15: remote-push-pull&lt;/h3&gt;
+&lt;p&gt;// 把本地的repository提交到github &lt;br /&gt;
+①git remote add “name of remote” “link”
+     &lt;br /&gt;e.g: git remote add origin git@github…&lt;br /&gt;
+git remote &lt;br /&gt;
+②git push &lt;name of=&quot;&quot; remote=&quot;&quot;&gt; &lt;name of=&quot;&quot; branch=&quot;&quot;&gt;&lt;br /&gt;
+     e.g:git push origin master&lt;/name&gt;&lt;/name&gt;&lt;/p&gt;
+
+&lt;p&gt;//把github的内容拉到本地repository &lt;br /&gt;
+git pull &lt;br /&gt;
+上述做法缺点是会自动完成merge工序，覆盖掉了本地未提交的修改。改进如下：&lt;br /&gt;
+①git fetch&lt;br /&gt;
+②切换到master分支&lt;br /&gt;
+③git merge origin/master&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-16-github-page&quot;&gt;Lesson 16: github-page&lt;/h3&gt;
+&lt;p&gt;两种建立pages的方法——非UI&lt;br /&gt;
+建立UI的页面——参考pages.github.com&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-17-interactive-add&quot;&gt;Lesson 17: interactive-add&lt;/h3&gt;
+&lt;p&gt;git add -i //切出一个页面，控制更详细的add&lt;br /&gt;
+     特别注意其中的patch方法，可以把文件中的一处处修改分开来add,而非add一整个文件&lt;br /&gt;
+git add -p //上述方法的缩写&lt;br /&gt;
+进入git add -p之后，y/n表示是否stage某处修改，s表示split此处修改(使之细分)&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-18git-stash&quot;&gt;Lesson 18:git-stash&lt;/h3&gt;
+&lt;p&gt;stash：藏匿&lt;br /&gt;
+git stash会把目前没有add的修改存放到一边,&lt;br /&gt;
+git stash list: 查看目前stash的内容&lt;br /&gt;
+git stash save “stash message” （stash的过程中提交stash message）&lt;br /&gt;
+git stash apply 还原最近的一次stash （但不会删掉这个stash）&lt;br /&gt;
+git stash apply 后面加一个index，apply指定的一次stash&lt;br /&gt;
+git stash pop 还原最近的一次stash （同时删掉这个stash）&lt;br /&gt;
+git stash drop 扔掉最近的一次stash&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-19-aliases&quot;&gt;Lesson 19: aliases&lt;/h3&gt;
+&lt;p&gt;① 利用git的bulid-in功能&lt;br /&gt;
+git config –global alias.(short command) (original command)&lt;br /&gt;
+e.g. git config –global alias.s status&lt;br /&gt;
+查看 cat ~/.gitconfig&lt;br /&gt;
+② 利用bash的功能&lt;br /&gt;
+     命令行里：vim .bash_profile&lt;br /&gt;
+     输入：alias ga=“git add”&lt;br /&gt;
+               alias gst=“git status”&lt;br /&gt;
+               alias gi=“git add -i”&lt;br /&gt;
+     命令行里：source ~/.bash_profile&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-20-merge-conflict&quot;&gt;Lesson 20: merge-conflict&lt;/h3&gt;
+&lt;p&gt;conflict的产生：在两个branch上对同一处进行了无法合并的修改并且commit了，当merge时会出现conflict&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;解决方法：根据git的反馈结果去自行修改冲突，选择留下来的版本&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;复习branch:&lt;br /&gt;
+git branch：查看branch&lt;br /&gt;
+git branch XXX: 创建branch（但停留在当前branch）&lt;br /&gt;
+git checkout XXX: 切换到XXX_branch&lt;br /&gt;
+git checkout -b XXX: 创建branch_XXX，同时切换到这个branch&lt;br /&gt;
+git merge XXX: 把XXX_branch合并到当前所在的branch&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-21-guis&quot;&gt;Lesson 21: guis&lt;/h3&gt;
+&lt;p&gt;介绍了图形化的git页面，介绍了github:mac&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-22vcprompt&quot;&gt;Lesson 22:vcprompt&lt;/h3&gt;
+&lt;p&gt;快速查看目前的git状态&lt;br /&gt;
+使用第三方插件： https://github.com/djl/vcprompt&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;lesson-23-conclusion&quot;&gt;Lesson 23: conclusion&lt;/h3&gt;
+&lt;p&gt;提供了一些深度学习git的资源链接&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;总结&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;了解git的底层推荐使用命令行，&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;简单使用git推荐使用UI界面，&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;在项目工作中学习Git,了解Git的重要性.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 21 Feb 2014 00:00:00 +0800</pubDate>
+        <link>/2014/02/21/Git.html</link>
+        <guid isPermaLink="true">/2014/02/21/Git.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>使用Github Pages + Jekyll 搭建个人Blog</title>
+        <description>&lt;p&gt;简单介绍了Jekyll配置过程中的关键点和注意事项，包含一些上传github的git操作, 以及一些过程中涉及到的参考资料&lt;/p&gt;
+
+&lt;h1 id=&quot;jekyll-&quot;&gt;Jekyll 配置&lt;/h1&gt;
+
+&lt;p&gt;这里主要介绍 Mac OS 环境的安装，如果是Windows的话需要先安装ruby和ruby gem.&lt;/p&gt;
+
+&lt;p&gt;参考&lt;a href=&quot;http://jekyllrb.com/docs/installation/&quot;&gt;官方教程&lt;/a&gt;
+核心其实就是一句&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;问题就是，由于GFW的存在… 所以直接这样会卡死不动，而是需要我们改gem源&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sources&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;remove&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rubygems&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sources&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;taobao&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;修改完源之后在使用gem安装jekyll，如果报错，就改为：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;如果再报错“Failed to build gem native extension”，很可能是没有安装rvm，可以敲入下面的命令：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;curl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;L&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rvm&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;io&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bash&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;到此jekyll就安装完成了,下面安装一个Markdown解释器:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rdiscount&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;然后在_config.yml里面设定 markdown: rdiscount&lt;/p&gt;
+
+&lt;p&gt;到此jekyll配置完成，cd到根目录下,输入下面命令即可运行。&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;server&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;watch&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+#基本Git操作&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;git status (查看当前状态)&lt;/li&gt;
+  &lt;li&gt;git add . (stage全部文件)&lt;/li&gt;
+  &lt;li&gt;git commit -m “commit message” (commit)&lt;/li&gt;
+  &lt;li&gt;git branch (查看所有branch以及目前所在的branch)&lt;/li&gt;
+  &lt;li&gt;git branch master (切换到master branch)&lt;/li&gt;
+  &lt;li&gt;git push origin master (提交到服务器)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;
+#Reference&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;pages.github.com&quot;&gt;Github Pages 官方文档&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://git-scm.com/about&quot;&gt;Git 官方文档&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://wowubuntu.com/markdown/basic.html&quot;&gt;Markdown 语法说明&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jekyllrb.com/docs/installation/&quot;&gt;Jekyll 官方文档&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://beiyuu.com/github-pages/&quot;&gt;使用Github Pages建立博客&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Wed, 19 Feb 2014 00:00:00 +0800</pubDate>
+        <link>/2014/02/19/Github-page-config.html</link>
+        <guid isPermaLink="true">/2014/02/19/Github-page-config.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Movies</title>
+        <description>&lt;p&gt;这是一篇测试文章 隶属于tag:Movies下面&lt;/p&gt;
+
+&lt;p&gt;wanted: &lt;br /&gt;
+1. 天堂电影院
+2. 恐怖游轮
+3. 美国往事&lt;/p&gt;
+
+&lt;p&gt;一：惊天魔盗团  2013/10/25 19:00-21:00  7分 &lt;br /&gt;
+影评：http://movie.douban.com/review/6250332/ &lt;br /&gt;
+Attractions:&lt;br /&gt;
+塔罗牌，摩根弗里曼，迈克尔凯恩，场景特技效果，mentalism&lt;/p&gt;
+
+&lt;p&gt;二：卑鄙的我1  2013/10/27-28日   7分 &lt;br /&gt;
+影评： &lt;br /&gt;
+讲的是一个大坏蛋Guz准备偷走月球的计划，看下来总体感觉不错，里面的小黄人是蛮可爱的，但是我感觉深度什么的还是不够，而且我笑点比较高，没有什么特别让我笑的地方，和《Wall-E》比起来又是有点差距的。但是作为一部娱乐性质的动画电影整体还是不错的。&lt;/p&gt;
+
+&lt;p&gt;另外，就是关于Guz的童年阴影对于他的影响，影评中的确谈到了这点，但是我觉得还是有点勉强的吧，我相信“童年决定论”，不过在影片中，可能因为时间的限制，总体铺垫不够，这里也就一笔带过吧。&lt;br /&gt;
+Attractions:  小黄人&lt;/p&gt;
+
+&lt;p&gt;三：卑鄙的我2 2013/10/30日  7.5分吧 &lt;br /&gt;
+影评：&lt;br /&gt;
+娱乐性影片，剧情比第一部而言更有完善，有点点小悬念。感觉几个人物弄得更可爱了。几个小黄人的镜头还是不错的恩。&lt;br /&gt;
+Attractions: 小黄人&lt;/p&gt;
+
+&lt;!--
+Se7en: gluttony    greed    sloth    wrath    pride    lust    envy
+
+Nurture apathy as if it were virtue
+
+Humility is their form of pride
+--&gt;
+&lt;p&gt;Generosity is its own form of power&lt;/p&gt;
+
+&lt;p&gt;四：X战警：金刚狼2  2013/11/15  7分 &lt;br /&gt;
+影评：&lt;br /&gt;
+距离前几部X战警差距有点大。讲述的是金刚狼在日本的一些遭遇和事项，内容方面没有什么亮点。 亮点在结尾的彩蛋，里面X教授和万磁王都回来了。感觉整部影片就类似于一个支线任务，而结尾的地方告诉我们诛仙任务要来了。 所以还是比较期待下一部X战警的。&lt;br /&gt;
+Attractions: 结尾彩蛋&lt;/p&gt;
+
+&lt;p&gt;五：一代宗师 2013/12/1 8.5分 &lt;br /&gt;
+第一遍看是快进着看的，感觉有必要看第二遍，等第二遍看完了再写吧。&lt;br /&gt;
+第二遍看下来感触胜多&lt;br /&gt;
+几句话吧：&lt;br /&gt;
+1. 念念不忘必有回响  &lt;br /&gt;
+2. 男人过了四十，要做有把握的事情。&lt;br /&gt;
+3. 眼睛里只有胜负，没有人情世故&lt;br /&gt;
+4. 我在最好的时候碰到你，是我的运气。&lt;br /&gt;
+5. 见自己 见天地 见众生&lt;br /&gt;
+Attraction: 哲学&lt;/p&gt;
+
+&lt;p&gt;六：囚徒 2013/12/5  9.5分&lt;br /&gt;
+非常棒的一部电影，在我如此忙碌的一周中我也愿意细细品味一番。&lt;br /&gt;
+是一部惊悚悬疑片，146分时长，节奏比较缓慢，全片的压抑效果渲染的很不错。 如今我回头想来感觉是那么的紧张惊悚。&lt;br /&gt;
+想的太多了，反而写不出什么了，就这样吧。怕是没胆量再看第二遍了。&lt;br /&gt;
+只留有一个问题：如果父亲没有最终救出自己的孩子那？ 他会不会成为第二个女魔头？&lt;br /&gt;
+Attraction: 不要把自己交给神&lt;/p&gt;
+
+&lt;p&gt;七：那些年，我们一起追的女孩  2014/1/2  8.5分 &lt;br /&gt;
+在考试周里我的看一部电影，可见其影响之大，相信我之后很长一段时间都会记住的。&lt;br /&gt;
+这类青春题材的片子或许不能电影深度和技巧的标准去评判，更多的是感情上的共鸣。而这一类青春爱情片的确非常容易和我产生共鸣。 &lt;br /&gt;
+一个美丽的青春和爱情故事吧，恩恩，影响比较深刻的就是沈佳宜说的那句“幼稚”，或许这也是我欠缺的？那一份冲动？&lt;br /&gt;
+Attraction: 幼稚&lt;/p&gt;
+
+&lt;p&gt;八：情圣囧瑟夫 2014/1/7  7.5分 &lt;br /&gt;
+考试周结束后看的第一部电影，怎么说那，每场的情色，18X的电影。当然如同其它情色电影一样，结束情色的内容表达的是另外一个主题。 
+片中的男主人公看AV上瘾，甚至不喜欢和真人做爱而是喜欢看AV。
+原因在于一点：在看AV的过程中，没有对方，只有“我”，“我”是核心。&lt;br /&gt;
+Attraction: AV&lt;/p&gt;
+
+&lt;p&gt;九：逃离德黑兰(Argo) 2014/1/10  9.5分 &lt;br /&gt;
+2013年剧情类奥斯卡奖得主，110分钟的片子情节非常的紧凑，其优秀无需多言。&lt;/p&gt;
+
+&lt;p&gt;十：无人区  2014/1/10  9分 &lt;br /&gt;
+2009年就拍完的片子，之后被禁了四年，导演宁浩稍微修改了一下然后上映的。看完之后怎么说那 感觉比较蛋疼的。
+蛮惨烈的，说不出来的感觉，就这样吧&lt;/p&gt;
+
+&lt;p&gt;十一： 黑天鹅 2014/1/12  9.5分 &lt;br /&gt;
+故事讲述了一个芭蕾舞女演员出演《天鹅湖》时同时要演白天鹅和黑天鹅两个差异角色，波特曼饰演的尼娜一直是一个乖乖女，所以演白天鹅没有问题，但是在饰演黑天鹅的时候缺难以找到感觉。尼娜是一个事业心极强，极其追求完美的人，在重压之下慢慢产生了精神分裂，在最后一场演出中，自己捅自己一刀，坚持这完成了最后一场演出。最后流血的她倒在地上，说出了“It was perfect!” &lt;br /&gt;
+Attraction: perfect&lt;/p&gt;
+
+&lt;p&gt;十二：美丽心灵&lt;/p&gt;
+
+&lt;p&gt;十三：安德的游戏&lt;/p&gt;
+
+&lt;p&gt;十四：黑客帝国&lt;/p&gt;
+
+&lt;p&gt;十五：血钻&lt;/p&gt;
+
+&lt;p&gt;十六：黑客帝国2&lt;/p&gt;
+
+&lt;p&gt;十七：黑客帝国3&lt;/p&gt;
+
+&lt;p&gt;十八：金蝉脱壳&lt;/p&gt;
+
+&lt;p&gt;十九：复仇者联盟&lt;/p&gt;
+
+&lt;p&gt;二十：饥饿游戏2&lt;/p&gt;
+
+&lt;p&gt;二十一：菲利普船长&lt;/p&gt;
+
+&lt;p&gt;二十二：钢铁侠1&lt;/p&gt;
+
+&lt;p&gt;二十三：钢铁侠2&lt;/p&gt;
+
+&lt;p&gt;二十四：钢铁侠3&lt;/p&gt;
+
+&lt;p&gt;二十五：超人：钢铁之躯&lt;/p&gt;
+
+&lt;p&gt;二十六：角斗士&lt;/p&gt;
+
+&lt;p&gt;二十七：无敌浩克 2014-2-8&lt;/p&gt;
+
+&lt;p&gt;二十八：雷神1  2014-2-8&lt;/p&gt;
+
+&lt;p&gt;二十九：雷神2  2014-2-9&lt;/p&gt;
+
+&lt;p&gt;三十：当幸福来敲门  7.5分 &lt;br /&gt;
+     那个关于上帝的笑话蛮好玩的，&lt;br /&gt;
+     励志片，没有传说的那么神，感觉总体一般吧 恩恩&lt;/p&gt;
+
+&lt;p&gt;三十一：被解放的姜戈  9分&lt;br /&gt;
+     姜戈：Django 前面的那个D不发音.&lt;br /&gt;
+     这是我看的第二部昆丁的作品，第一部是大名鼎鼎的《低俗小说》，总体感觉昆丁的作品还是怪怪的..但是有一点，看起来的确爽，虽然里面的暴力血腥的地方是多了一点..&lt;br /&gt;
+     电影给我留下比较深刻影响的应该是：黑人管家，原本以为是结局的找到三兄弟打死就OK了，结果发现后面还有那么一大段.. 还有那个医生，演的实在是太好了。。&lt;br /&gt;
+     准备之后在看几部昆丁的作品，比较比较&lt;/p&gt;
+
+&lt;p&gt;三十二：无耻混蛋 9.5分&lt;br /&gt;
+     昆丁的第三部作品，神作！&lt;br /&gt;
+     克里斯托弗·瓦尔兹：饰演医生&lt;br /&gt;
+     梅拉尼·罗兰：饰演女犹太人&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;三十三：冰雪奇缘 8.5分&lt;br /&gt;
+     和胡老师去电影院看的，里面的的那个公主可以控制冰，我感觉比较吊。&lt;br /&gt;
+     另外回来看影评貌似说是百合精神的，我震惊了，恩 就这样吧，总体来说是一部好的动画片，但不能说是动画神片。&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;三十四：霸王别姬&lt;br /&gt;
+     要想人前显贵，您必得人后受罪。&lt;br /&gt;
+     他们怎么成的角啊，这得挨多少打啊。&lt;br /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 18 Feb 2014 00:00:00 +0800</pubDate>
+        <link>/2014/02/18/movies.html</link>
+        <guid isPermaLink="true">/2014/02/18/movies.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Docker talks</title>
+        <description>&lt;p&gt;I have been intrigued with &lt;a href=&quot;http://docker.io&quot;&gt;Docker&lt;/a&gt; since the day I came to know about it.&lt;/p&gt;
+
+&lt;p&gt;I explored it more and used for my personal side projects.&lt;/p&gt;
+
+&lt;p&gt;I gave talk on Docker at &lt;a href=&quot;http://www.meetup.com/PuneRailsMeetup/events/159959042/&quot;&gt;Pune Ruby Users Group meetup&lt;/a&gt; in January and
+organized first &lt;a href=&quot;http://www.meetup.com/Docker-Pune/events/165011992/&quot;&gt;Docker Pune meetup&lt;/a&gt; at Equal Experts India office. I spoke
+about Docker there too. Below are slides.&lt;/p&gt;
+
+&lt;p&gt;Slides - &lt;a href=&quot;https://speakerdeck.com/anildigital/docker&quot;&gt;https://speakerdeck.com/anildigital/docker&lt;/a&gt;&lt;/p&gt;
+
+&lt;script async=&quot;&quot; class=&quot;speakerdeck-embed&quot; data-id=&quot;df1d46a0642a01313e7e4a3a480508b9&quot; data-ratio=&quot;1.77777777777778&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Sat, 18 Jan 2014 00:00:00 +0800</pubDate>
+        <link>/2014/01/18/docker-talks.html</link>
+        <guid isPermaLink="true">/2014/01/18/docker-talks.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Design Patterns in Ruby talk at PRUG meetup</title>
+        <description>&lt;p&gt;For the revived &lt;a href=&quot;http://punerb.org/&quot;&gt;Pune Ruby Users Group&lt;/a&gt; first meetup, I talked on ‘Design Patterns in Ruby’ on 6th July, 2013 held at ThoughtWorks, Pune.&lt;/p&gt;
+
+&lt;p&gt;Here are the links for slides and code snippets of talk.&lt;/p&gt;
+
+&lt;p&gt;Slides - &lt;a href=&quot;https://speakerdeck.com/anildigital/design-patterns-in-ruby&quot;&gt;https://speakerdeck.com/anildigital/design-patterns-in-ruby&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Code snippets - &lt;a href=&quot;https://gist.github.com/anildigital/5939892&quot;&gt;https://gist.github.com/anildigital/5939892&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://farm6.staticflickr.com/5480/9341949682_166b555d18.jpg&quot; alt=&quot;Moi talking&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks &lt;a href=&quot;http://twitter.com/gautamrege&quot;&gt;Gautam&lt;/a&gt; for the &lt;a href=&quot;https://twitter.com/gautamrege/status/353387404683530240/photo/1&quot;&gt;click&lt;/a&gt;&lt;/p&gt;
+
+&lt;script async=&quot;&quot; class=&quot;speakerdeck-embed&quot; data-id=&quot;19c8b510c86b013076103a7d1f45f942&quot; data-ratio=&quot;1.2994923857868&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Sun, 07 Jul 2013 00:00:00 +0800</pubDate>
+        <link>/2013/07/07/design-patterns-in-ruby-at-prug.html</link>
+        <guid isPermaLink="true">/2013/07/07/design-patterns-in-ruby-at-prug.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

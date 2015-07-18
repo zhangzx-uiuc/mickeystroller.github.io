@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 使用Github Pages + Jekyll 搭建个人Blog
-tag: More
 ---
 
 简单介绍了Jekyll配置过程中的关键点和注意事项，包含一些上传github的git操作, 以及一些过程中涉及到的参考资料

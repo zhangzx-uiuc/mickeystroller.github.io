@@ -1,20 +1,67 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-<head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>Welcome!| Mickey Stroller </title>
+---
+layout: default
+---
 
-   <!-- syntax highlighting CSS -->
-   <link rel="stylesheet" href="/public/stylesheets/syntax.css" type="text/css" />
+<div id="home">
+  <!-- Short Bio -->
+  <h2 id="intro">Short Bio</h2>
+  <div>
+  </div>
+  <p>Jiaming Shen is a senior student at <a href="http://en.sjtu.edu.cn/" target = "_blank",rel="nofollow">Shanghai Jiao Tong University (SJTU)</a>, Shanghai, China.</p> 
+  <p>I major in <a href="http://www.cs.sjtu.edu.cn/en/",target = "_blank",rel="nofollow">Computer Science </a> in the <a href="http://english.seiee.sjtu.edu.cn/",target="_blank",rel="nofollow">School of Electronic Information and Electrical Engineering</a>.</p> 
+  <p>I am an undergraduate research assistant at the <a href="http://iiot.sjtu.edu.cn",target="_blank",rel="nofollow">Intelligent Internet of Things(IIoT) of SJTU</a>, and I am working under the guidance of <a href="http://iwct.sjtu.edu.cn/Personal/xwang8/index.html", target="_blank",rel="nofollow">Prof. Xinbing Wang</a> now. </p>
+  
 
-   <!-- Homepage CSS -->
-   <link rel="stylesheet" href="/public/stylesheets/screen.css" type="text/css" media="screen, projection" />
-   <script src="/public/javascripts/jquery.js" type="text/javascript"></script>
-</head>
-<body>
+  <!-- Area of Interests -->
+  <h2 id="intro">Area of Interests</h2>
+  <div>
+  </div>
+  <p>My primary areas of interests in research include: </p>
+  <ul>
+    <li>Topic Model </li>
+    <li>Statistical Machine Learning </li>
+    <li>Named Data Networking (NDN) </li> 
+  </ul>
 
-	<div><img style="margin:150px 0 5px 0;" src="./public/images/poem.png" alt=""></div>
-	<div><a href="/home.html">Enter here</a></div>
+  <p>My primary areas of interests in engineering include: </p>
+  <ul>
+    <li>Web front-end Development </li>
+    <li>Data Visualization</li>
+    <li>iOS development</li>
+  </ul>
 
-</body>
-</html>
+  <!-- Contact -->
+
+  
+
+
+
+<!--   {% for post in site.posts limit:3 %}
+    <div class="post">
+      <h2><a href="{{ post.url }}">{{post.title}}</a></h2>
+      <span class="date">{{ post.date | date:"%B %d, %Y" }}</span>
+      {{ post.content }}
+      <div class="view_comments_link">
+        <a href="{{ post.url }}#disqus_thread">View Comments</a> <br />
+      </div>
+    </div>
+  {% endfor %} -->
+
+<!--   <div id="related">
+    <div class="related_left">
+      <h2>Previous posts</h2>
+      <ul class="posts small">
+        {% for post in site.posts offset:3 limit:3 %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="related_right">
+      <h2>Older posts... (see <a href="/archive.html">archive</a> for more)</h2>
+      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+    </div>
+  </div> -->
+
+
+</div>
