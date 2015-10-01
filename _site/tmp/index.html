@@ -40,6 +40,8 @@
       <div class="trigger">
 <!--       	add the cv link here -->
       	<a class="page-link", href="/cv.html">CV</a>
+      	<a class="page-link", href="/research.html">Research</a>
+      	<a class="page-link", href="/project.html">Project</a>
         
           
           <a class="page-link" href="/blogs.html">Blogs</a>
@@ -56,7 +58,7 @@
           
         
           
-          <a class="page-link" href="/research.html">Research</a>
+        
           
         
           
@@ -360,36 +362,30 @@ git merge XXX: 把XXX_branch合并到当前所在的branch<br /></p>
 <p>参考<a href="http://jekyllrb.com/docs/installation/">官方教程</a>
 核心其实就是一句</p>
 
-<div class="highlight"><pre><code class="ruby"><span class="err">$</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span>
-</code></pre></div>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span></code></pre></div>
 
 <p>问题就是，由于GFW的存在… 所以直接这样会卡死不动，而是需要我们改gem源</p>
 
-<div class="highlight"><pre><code class="ruby"><span class="err">$</span> <span class="n">sudo</span> <span class="n">gem</span> <span class="n">sources</span> <span class="o">--</span><span class="n">remove</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="n">rubygems</span><span class="o">.</span><span class="n">org</span><span class="o">/</span>
-<span class="err">$</span> <span class="n">sudo</span> <span class="n">gem</span> <span class="n">sources</span> <span class="o">-</span><span class="n">a</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="n">ruby</span><span class="o">.</span><span class="n">taobao</span><span class="o">.</span><span class="n">org</span><span class="o">/</span>
-</code></pre></div>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">sudo</span> <span class="n">gem</span> <span class="n">sources</span> <span class="o">--</span><span class="n">remove</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="n">rubygems</span><span class="o">.</span><span class="n">org</span><span class="o">/</span>
+<span class="err">$</span> <span class="n">sudo</span> <span class="n">gem</span> <span class="n">sources</span> <span class="o">-</span><span class="n">a</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="n">ruby</span><span class="o">.</span><span class="n">taobao</span><span class="o">.</span><span class="n">org</span><span class="o">/</span></code></pre></div>
 
 <p>修改完源之后在使用gem安装jekyll，如果报错，就改为：</p>
 
-<div class="highlight"><pre><code class="ruby"><span class="err">$</span> <span class="n">sudo</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span>
-</code></pre></div>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">sudo</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span></code></pre></div>
 
 <p>如果再报错“Failed to build gem native extension”，很可能是没有安装rvm，可以敲入下面的命令：</p>
 
-<div class="highlight"><pre><code class="ruby"><span class="err">$</span> <span class="n">curl</span> <span class="o">-</span><span class="n">L</span> <span class="ss">https</span><span class="p">:</span><span class="sr">//</span><span class="n">get</span><span class="o">.</span><span class="n">rvm</span><span class="o">.</span><span class="n">io</span> <span class="o">|</span> <span class="n">bash</span> <span class="o">-</span><span class="n">s</span> <span class="n">stable</span> <span class="o">--</span><span class="n">ruby</span>
-</code></pre></div>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">curl</span> <span class="o">-</span><span class="n">L</span> <span class="ss">https</span><span class="p">:</span><span class="sr">//</span><span class="n">get</span><span class="o">.</span><span class="n">rvm</span><span class="o">.</span><span class="n">io</span> <span class="o">|</span> <span class="n">bash</span> <span class="o">-</span><span class="n">s</span> <span class="n">stable</span> <span class="o">--</span><span class="n">ruby</span></code></pre></div>
 
 <p>到此jekyll就安装完成了,下面安装一个Markdown解释器:</p>
 
-<div class="highlight"><pre><code class="ruby"><span class="err">$</span> <span class="n">sudo</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span> <span class="n">rdiscount</span>
-</code></pre></div>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">sudo</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span> <span class="n">rdiscount</span></code></pre></div>
 
 <p>然后在_config.yml里面设定 markdown: rdiscount</p>
 
 <p>到此jekyll配置完成，cd到根目录下,输入下面命令即可运行。</p>
 
-<div class="highlight"><pre><code class="ruby"><span class="err">$</span> <span class="n">jekyll</span> <span class="n">server</span> <span class="o">--</span><span class="n">watch</span> 
-</code></pre></div>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">jekyll</span> <span class="n">server</span> <span class="o">--</span><span class="n">watch</span></code></pre></div>
 
 <p><br /></p>
 
