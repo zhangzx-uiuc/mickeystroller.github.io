@@ -11,205 +11,114 @@
 
 	  <link rel="stylesheet" href="{{ "/css/main_resume_cleaned.css" | prepend: site.baseurl }}">
   
-  
-		<header class="page-header">
-
-        <div class="title-bar">
-          <!-- Your title is also defined in the _config.yml file -->
-          <h2 class="header-title" style="font-weight:bold">Projects</h2>
-        </div>
-
-        <div class="executive-summary">
-          <p style="font-size:16px;">I am currently developing a topic-based search engine.
-             I am also participating in the data wrangling tasks of <a href="http://acemap.sjtu.edu.cn/">AceMap</a> System. 
-          	 My previous experience was mainly about website developments, including <a href="http://202.120.39.158/" target = "_blank">IEEE Honor Class Homepage</a> and data-related projects.
-          <p>
-        </div>
-
-
-      </header>
-
       <!-- begin Experience -->
-      <section class="content-section">
+      <section class="content-section" style="margin-top:30px;">
 
         <header class="section-header">
-          <h2>Experience</h2>
+          <h2>Project</h2>
         </header>
 
+        <div class="executive-summary" style="font-size:17px;">
+          <p>I am currently working on the data-wrangling part of AceMap System. 
+             I used to work in various topics including Machine Learning & Data Mining Systems, Vehicle System and Website Constructions.           
+          </p>
+        </div>
+        
+        <!-- horizontal line -->
+        <div style="border-bottom: 1px solid #c7c7c7; margin-bottom: 1.5rem"></div>
+        
+        
         <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->
         <div class="resume-item">
-          <h3 class="resume-item-title">Springfield Nuclear Power Plant</h3>
-          <h4 class="resume-item-details">Safety Inspector &bull; Nov, 1980 &mdash; Present</h4>
-          <p class="resume-item-copy">Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points:</p>
-          <ul class="resume-item-list">
-            <li>Ate lots of donuts</li>
-            <li>Fell asleep rarely</li>
-            <li>Left promptly at end of day (sometimes earlier)</li>
-          </ul>
-          <p class="resume-item-copy">If you're going to copy paste markup, or edit it, just be sure to keep the appropriate classnames on your new elements for styling purposes.</p>
+          <h3 class="resume-item-title">Topic-based Academic Search Engine</h3>
+          <h4 class="resume-item-details">Supervised by Prof. Xinbing Wang &bull; Sep, 2015 &mdash; Present</h4>
+          <table>
+          	<tbody>
+          		<tr>
+          			<td><p>I am currently developing a topic-based search engine to improve academic search experience.<p>
 
+		<p>The objectives of this system are mainly:<p>
+          <ul class="resume-item-list">
+            <li>Return paper search results based on both word-level and topic-level similarity with user’s query.</li>
+            <li>Rank papers according to their influence scores as well as their relevance to the query. </li>
+            <li>Visualize the topic distribution of each paper and topic evolution among the whole corpus.</li>
+          </ul>
+          			</td>
+          			<td style="width:340px">
+          			<img src="/images/se.png" style="display:block; margin-left:15px; width:340px">
+          			</td>
+          		</tr>
+          	</tbody>
+          </table>
+          
+          
+          
+          
+          
+          
+         
         </div><!-- end of resume-item -->
+
+ 		<!-- horizontal line -->
+        <div style="border-bottom: 1px solid #c7c7c7; margin-bottom: 1.5rem"></div>
+
 
         <!-- another resume item -->
         <div class="resume-item">
-          <h3 class="resume-item-title">Sir Putt-A-Lot's Merrie Olde Fun Centre</h3>
-          <h4 class="resume-item-details">Windmill Crank Operator &bull; Jun, 1978 &mdash; Sept, 1979</h4>
-          <p class="resume-item-copy">If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.</p>
+          <h3 class="resume-item-title">Modeling Academic Influence in Scientific Literatures</h3>
+          <h4 class="resume-item-details">Supervised by Prof. Xinbing Wang &bull; Apr, 2015 &mdash; Sep, 2015</h4>
 
+
+          <p class="resume-item-copy">
+          Scientific articles are not born equal. Some generate an entire discipline while others make relatively fewer contributions. We studied the problem of identifying those important articles and understanding how they influence others.
+          </p>
+	
+		  <p class="resume-item-copy"> The main contributions of this work include:</p>
+		  
+          <ul class="resume-item-list">
+            <li>Devised a generative model to utilize both the textual content and citation information in scientific literatures.</li>
+            <li>Proposed a fast inference algorithm to learn this generative model based on collapsed Gibbs Sampling.</li>
+            <li>Introduced a novel quantitative metric named J-Index to model academic influence in scientific literatures.</li>
+			<li>Designed experiments on a collection of over 420,000 research papers to validate the effectiveness of J-Index.</li>
+          </ul>
+          
+          <p class="resume-item-copy"> This work was submitted to AAAI 2016.</p>
+          <div align="center"><img src="/images/J-index-1.jpg" style="max-width:90%"></div>
+          
         </div><!-- end of resume-item -->
 
+		<!-- horizontal line -->
+        <div style="border-bottom: 1px solid #c7c7c7; margin-bottom: 1.5rem"></div>
+        
         <!-- by now you're getting the picture... -->
         <div class="resume-item">
-          <h3 class="resume-item-title">Simpson Lazer Tag</h3>
-          <h4 class="resume-item-details">Front Desk Attendant &bull; Jun, 1975 &mdash; May, 1978</h4>
+          <h3 class="resume-item-title">Exponential Interest Aggregation for Hop-by-hop Congestion Control in Named Data Networking</h3>
+          <h4 class="resume-item-details">Supervised by Prof. Weijia Jia &bull; Apr, 2015 &mdash; Jul, 2015</h4>
           <p class="resume-item-copy">Boy, when Marge first told me she was going to the Police Academy, I thought it would be fun and exciting, you know, like the movie... Spaceballs. But instead, it's been painful and disturbing, like the movie Police Academy.</p>
+
+
+		 <p class="resume-item-copy">
+          Named Data Networking (NDN) is a Future Internet architecture aiming to satisfy the new requirement of content communication. We studied the problem of congestion control when designing NDN transport protocol.
+          </p>
+	
+		  <p class="resume-item-copy"> The main contributions of this work include:</p>
+		  
+		  <ul class="resume-item-list">
+            <li>Established the Interest aggregation state transition framework in Named Data Networking.</li>
+            <li>Proposed Exponential Interest Aggregation (EIA), an adaptive forwarding strategy addressing NDN congestion control problem in a hop-by-hop manner.</li>
+            <li>Analyzed the effectiveness of EIA algorithm mathematically under the Interest aggregation state transition framework.</li>
+			<li>Conducted simulation to evaluate the performance of EIA and showed that EIA improves average delay by 13%, average number of retransmission by 25% and cache hit ratio by 61%.</li>
+          </ul>
+          <p class="resume-item-copy">This work was submitted to IEEE INFOCOM 2016.</p>
+          
+          
+          <div align="center"><img src="/images/EIA-1.jpg" style="max-width:100%"></div>
+          <div align="center"><img src="/images/EIA-2.jpg" style="max-width:90%"></div>
 
         </div><!-- end of resume-item -->
 
       </section>
       <!-- end Experience -->
-
-      {% if site.resume_section_education %}
-      <!-- begin Education -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Education</h2>
-        </header>
-
-        <div class="resume-item">
-          <h3 class="resume-item-title">Springfield College</h3>
-          <h4 class="resume-item-details">Associates Degree, Business Management &bull; 1984 &mdash; 1986</h4>
-          <p class="resume-item-copy">If you had any meaningful roles at college, feel free to write about them here.</p>
-        </div>
-
-      </section>
-      <!-- end Education -->
-      {% endif %}
-
-      {% if site.resume_section_projects %}
-      <!-- begin Projects -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Projects</h2>
-        </header>
-
-        <div class="resume-item">
-          <h3 class="resume-item-title"><a href="http://donutlocator.io">donutfinder.io</a></h3>
-          <h4 class="resume-item-details">Founder & Primary Developer &bull; 2012 &mdash; Present</h4>
-          <p class="resume-item-copy">Donut Locator is an open source node/ember app that lets users find donuts within a defined radius from their home.</p>
-        </div>
-
-        <div class="resume-item">
-          <h3 class="resume-item-title">Springfield Donut Eater's User Group</h3>
-          <h4 class="resume-item-details">Co-Founder & Organizer &bull; 2007 &mdash; Present</h4>
-          <p class="resume-item-copy">DEUG is a local monthly meetup in Springfield where we share all the latest tips and tricks for dat donut lifestyle. I organize the group, and typically eat most of the donuts.</p>
-        </div>
-
-      </section>
-      <!-- end Projects -->
-      {% endif %}
-
-      {% if site.resume_section_skills %}
-      <!-- begin Skills -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Skills</h2>
-        </header>
-
-        <div class="resume-item">
-          <h4 class="resume-item-details">Donut design</h4>
-          <p class="resume-item-copy">Sprinkle art, icing design, eclair management, taste testing, donut/coffee pairing research</p>
-        </div>
-
-        <div class="resume-item">
-          <h4 class="resume-item-details">Craft beer brewing</h4>
-          <p class="resume-item-copy">Hops inspection, brew testing, distribution management, bottle label design, festival and event management</p>
-        </div>
-
-        <div class="resume-item">
-          <h4 class="resume-item-details">Family leadership</h4>
-          <p class="resume-item-copy">Bread winning, conflict resolution, couch inspection, TV longevity testing</p>
-        </div>
-
-      </section>
-      <!-- end Skills -->
-      {% endif %}
-
-      {% if site.resume_section_recognition %}
-      <!-- begin Recognition -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Recognition</h2>
-        </header>
-
-        <div class="resume-item">
-          <h3 class="resume-item-title">Springfield Nuclear Power Plant</h3>
-          <h4 class="resume-item-details">Outstanding Achievement &bull; 2010</h4>
-          <p class="resume-item-copy">Awarded for stopping a nuclear meltdown, even though I also started it.</p>
-        </div>
-
-        <div class="resume-item">
-          <h3 class="resume-item-title">Duff Beer Customer of the year</h3>
-          <h4 class="resume-item-details">1997 &mdash; 2001, 2003, 2008 &mdash; 2012</h4>
-          <p class="resume-item-copy">Honored by <a href="https://en.wikipedia.org/wiki/Duff_Beer">Duff Beer</a> for being an outstanding customer several years straight. Qualifications included most beer consumed at a bar, most beer purchased, and most beer ralphed.</p>
-        </div>
-
-        <div class="resume-item">
-          <h3 class="resume-item-title">Moe's Patron of the Month</h3>
-          <h4 class="resume-item-details">12/2001, 8/2004</h4>
-          <p class="resume-item-copy">Specifically this prestigious awarded twice for stopping a robber with my belly.</p>
-        </div>
-
-      </section>
-      <!-- end Recognition -->
-      {% endif %}
-
-      {% if site.resume_section_associations %}
-      <!-- begin Associations -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Associations</h2>
-        </header>
-
-        <div class="resume-item">
-          <h3 class="resume-item-title"><a href="http://beerfortheworld.com">Beer for the World</a></h3>
-          <h4 class="resume-item-details">Volunteer &bull; 2008 &mdash; Present</h4>
-          <p class="resume-item-copy">Organized fund drives and participated in fundraising events for the benefit of families in third world countries without proper access to malt beverages.</p>
-        </div>
-
-        <div class="resume-item">
-          <h3 class="resume-item-title">Springfield Nuclear Workers Labor Union</h3>
-          <h4 class="resume-item-details">Member in Good Standin &bull; 1994 &mdash; Present</h4>
-          <p class="resume-item-copy">Founding member of the local nuclear workers labor union.</p>
-        </div>
-
-      </section>
-      <!-- end Associations -->
-      {% endif %}
-
-      {% if site.resume_section_links %}
-      <!-- begin Links -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Additional Links</h2>
-        </header>
-
-        <div class="resume-item">
-          <ul class="resume-item-list">
-            <li><a href="#">Springfield Poker Club</a></li>
-            <li><a href="#">Springfield Donut Eater's User Group</a></li>
-          </ul>
-        </div>
-
-      </section>
-      <!-- end Links -->
-      {% endif %}
 
 
     </div>
