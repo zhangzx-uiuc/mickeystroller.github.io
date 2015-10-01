@@ -12,7 +12,7 @@
 
   <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/main_resume_cleaned.css">
-  <link rel="canonical" href="/project.html">
+  <link rel="canonical" href="/projects.html">
   <link rel="alternate" type="application/rss+xml" title="Jiaming Shen's Homepage" href="/feed.xml" />
 </head>
 
@@ -41,7 +41,7 @@
 <!--       	add the cv link here -->
       	<a class="page-link", href="/cv.html">CV</a>
       	<a class="page-link", href="/research.html">Research</a>
-      	<a class="page-link", href="/project.html">Project</a>
+      	<a class="page-link", href="/projects.html">Projects</a>
         
           
           <a class="page-link" href="/blogs.html">Blogs</a>
@@ -82,7 +82,7 @@
       <section class="content-section" style="margin-top:30px;">
 
         <header class="section-header">
-          <h2>Project</h2>
+          <h2>Projects</h2>
         </header>
 
         <div class="executive-summary" style="font-size:17px;">
@@ -94,95 +94,112 @@
         <!-- horizontal line -->
         <div style="border-bottom: 1px solid #c7c7c7; margin-bottom: 1.5rem"></div>
         
-        
-        <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->
+        <!-- Accent Classification of English Speakers -->
         <div class="resume-item">
-          <h3 class="resume-item-title">Topic-based Academic Search Engine</h3>
-          <h4 class="resume-item-details">Supervised by Prof. Xinbing Wang &bull; Sep, 2015 &mdash; Present</h4>
+          <h3 class="resume-item-title">Accent Classification of English Speakers</h3>
+          <h4 class="resume-item-details">This work is advised by Prof. Kai Yu </h4>
+          
+          <p class="resume-item-copy">
+          In this project, I studied the accent classification problem that given a recording of one person speaking a known script of English words, how could we predict that speaker’s native language. 
+          I hacked this problem through four major steps — word segmentation, feature extraction, clip classification and recording classification. Using MFCCs as feature vectors and Logistic Regression as classification method, I build a system to achieve an overall accuracy of 97%.
+		  </p>
+          
+          <p class="resume-item-copy" style="margin-bottom:20px;"> This project is hosted on GitHub. [Codes] [<a href="/resources/ML_Project_Jiaming_Shen.pdf" target="_blank">PDF</a>]</p>
+          
+          <div align="center">
           <table>
           	<tbody>
           		<tr>
-          			<td><p>I am currently developing a topic-based search engine to improve academic search experience.<p>
+          			<td style="width:320px">
+          			<img src="/images/ML-1.jpg" style="display:block; margin-left:15px; width:340px">
+          			</td>
+          			
+          			<td style="width:480px">
+          			<img src="/images/ML-2.jpg" style="display:block; margin-left:15px; width:400px">
+          			</td>
+          		</tr>
+          	</tbody>
+          </table>
+          </div>
+                    
+         
+        </div><!-- end of resume-item -->
+ 
+ 		<!-- horizontal line -->
+        <div style="border-bottom: 1px solid #c7c7c7; margin-bottom: 1.5rem"></div>
 
-		<p>The objectives of this system are mainly:<p>
-          <ul class="resume-item-list">
-            <li>Return paper search results based on both word-level and topic-level similarity with user’s query.</li>
-            <li>Rank papers according to their influence scores as well as their relevance to the query. </li>
-            <li>Visualize the topic distribution of each paper and topic evolution among the whole corpus.</li>
-          </ul>
+        <!-- PM2.5 Concentration prediction using time series based data mining -->
+		<div class="resume-item">
+          <h3 class="resume-item-title">PM2.5 Concentration prediction using time series based data mining</h3>
+          <h4 class="resume-item-details">This work is advised by Prof. Bo Yuan. </h4>
+          
+          <p class="resume-item-copy">
+          In this project, I discussed three models to deal with PM2.5 prediction problem, including basic Autoregressive Moving Average (ARMA) Model, Stochastic Volatility (SV) Model and Stock-Watson (SW) Model. 
+          Furthermore, I designed a new model combing SW Model with Time Series Neural Network and analyze its performance with above-mentioned models. Results show that this newly-designed model provide more accurate prediction of PM2.5 concentration levels for the next six hours.
+		  </p>
+          
+          <p class="resume-item-copy" style="margin-bottom:20px;">This project is hosted on GitHub. [Codes] [<a href="/resources/DM_Project_Jiaming_Shen.pdf" target="_blank">PDF</a>].</p>
+          
+          <div align="center" style="margin-left:-15px;">
+          <table>
+          	<tbody>
+          		<tr>
+          			<td style="width:400px">
+          			<img src="/images/DM-1.jpg" style="display:block; margin-left:15px;">
+          			</td>
+          			          			
+          			<td style="width:360px">
+          			<img src="/images/DM-3.jpg" style="display:block; margin-left:15px;">
+          			</td>
+          		</tr>
+          	</tbody>
+          </table>
+          </div>
+        </div><!-- end of resume-item -->
+        
+        <!-- horizontal line -->
+        <div style="border-bottom: 1px solid #c7c7c7; margin-bottom: 1.5rem"></div>
+
+		<!-- CityDrive: A map-generating and Speed-Optimizing Driving System -->
+		<div class="resume-item">
+          <h3 class="resume-item-title">CityDrive: A map-generating and Speed-Optimizing Driving System</h3>
+          <h4 class="resume-item-details">This work is advised by Prof. Xinbing Wang</h4>
+		  <table>
+          	<tbody>
+          		<tr>
+          			<td>
+          			I designed a Traffic Signal Schedule Inference Model in CityDrive, a map-generating and speed-optimizing driving system. 
+          			Through the crowdsourcing records of green-pass and red-stop at traffic lights, the system dynamically constructs a city map and then provides speed suggestion to the drivers in order to avoid red-stops.
+          			I implemented this algorithm and conducted simulation in Matlab. Results shown that the continuous speed advisory service effectively smooths traffic flow and significantly reduces energy consumption. 
           			</td>
           			<td style="width:340px">
-          			<img src="/images/se.png" style="display:block; margin-left:15px; width:340px">
+          			<img src="/images/CityDrive.png" style="display:block; margin-left:15px;">
           			</td>
           		</tr>
           	</tbody>
           </table>
           
-          
-          
-          
-          
-          
-         
         </div><!-- end of resume-item -->
-
- 		<!-- horizontal line -->
-        <div style="border-bottom: 1px solid #c7c7c7; margin-bottom: 1.5rem"></div>
-
-
-        <!-- another resume item -->
-        <div class="resume-item">
-          <h3 class="resume-item-title">Modeling Academic Influence in Scientific Literatures</h3>
-          <h4 class="resume-item-details">Supervised by Prof. Xinbing Wang &bull; Apr, 2015 &mdash; Sep, 2015</h4>
-
-
-          <p class="resume-item-copy">
-          Scientific articles are not born equal. Some generate an entire discipline while others make relatively fewer contributions. We studied the problem of identifying those important articles and understanding how they influence others.
-          </p>
 	
-		  <p class="resume-item-copy"> The main contributions of this work include:</p>
-		  
-          <ul class="resume-item-list">
-            <li>Devised a generative model to utilize both the textual content and citation information in scientific literatures.</li>
-            <li>Proposed a fast inference algorithm to learn this generative model based on collapsed Gibbs Sampling.</li>
-            <li>Introduced a novel quantitative metric named J-Index to model academic influence in scientific literatures.</li>
-			<li>Designed experiments on a collection of over 420,000 research papers to validate the effectiveness of J-Index.</li>
-          </ul>
-          
-          <p class="resume-item-copy"> This work was submitted to AAAI 2016.</p>
-          <div align="center"><img src="/images/J-index-1.jpg" style="max-width:90%"></div>
-          
-        </div><!-- end of resume-item -->
-
-		<!-- horizontal line -->
+        <!-- horizontal line -->
         <div style="border-bottom: 1px solid #c7c7c7; margin-bottom: 1.5rem"></div>
-        
-        <!-- by now you're getting the picture... -->
-        <div class="resume-item">
-          <h3 class="resume-item-title">Exponential Interest Aggregation for Hop-by-hop Congestion Control in Named Data Networking</h3>
-          <h4 class="resume-item-details">Supervised by Prof. Weijia Jia &bull; Apr, 2015 &mdash; Jul, 2015</h4>
-          <p class="resume-item-copy">Boy, when Marge first told me she was going to the Police Academy, I thought it would be fun and exciting, you know, like the movie... Spaceballs. But instead, it's been painful and disturbing, like the movie Police Academy.</p>
-
-
-		 <p class="resume-item-copy">
-          Named Data Networking (NDN) is a Future Internet architecture aiming to satisfy the new requirement of content communication. We studied the problem of congestion control when designing NDN transport protocol.
-          </p>
-	
-		  <p class="resume-item-copy"> The main contributions of this work include:</p>
-		  
+		
+	    <div class="resume-item">
+          <h3 class="resume-item-title">Static Front-end Websites</h3>
+		  <p class="resume-item-copy">I designed and built several static web pages, using Bootstrap 3, Jekyll, plain HTML/CSS, pure JavaScript, Jquery, and joomla!. </p>
+		  <p class="resume-item-copy">Following are several selected websites:</p>
 		  <ul class="resume-item-list">
-            <li>Established the Interest aggregation state transition framework in Named Data Networking.</li>
-            <li>Proposed Exponential Interest Aggregation (EIA), an adaptive forwarding strategy addressing NDN congestion control problem in a hop-by-hop manner.</li>
-            <li>Analyzed the effectiveness of EIA algorithm mathematically under the Interest aggregation state transition framework.</li>
-			<li>Conducted simulation to evaluate the performance of EIA and showed that EIA improves average delay by 13%, average number of retransmission by 25% and cache hit ratio by 61%.</li>
+		    <li><a href="http://202.120.39.158/" target="_blank">IEEE Honor Class Homepage</a></li>
+		    <li><a href="http://www.sjtu.edu.cn/president/pres_index.htm" target="_blank">Shanghai Jiao Tong University president home page (Chinese Version)</a></li>
+			<li><a href="http://smartbdn.sjtu.edu.cn/" target="_blank">Smart Big Data Network at IWCT in SJTU</a></li>
+			<li><a href="/"" target="_blank">My own static homepage</a></li>
+			
           </ul>
-          <p class="resume-item-copy">This work was submitted to IEEE INFOCOM 2016.</p>
-          
-          
-          <div align="center"><img src="/images/EIA-1.jpg" style="max-width:100%"></div>
-          <div align="center"><img src="/images/EIA-2.jpg" style="max-width:90%"></div>
+        </div>
+        
+		
 
-        </div><!-- end of resume-item -->
+	
 
       </section>
       <!-- end Experience -->
