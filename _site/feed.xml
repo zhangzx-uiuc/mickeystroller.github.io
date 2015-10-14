@@ -5,9 +5,45 @@
     <description>So we beat on, boats against the current, borne back ceaselessly into the past.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 06 Oct 2015 23:12:53 +0800</pubDate>
-    <lastBuildDate>Tue, 06 Oct 2015 23:12:53 +0800</lastBuildDate>
+    <pubDate>Wed, 14 Oct 2015 22:15:19 +0800</pubDate>
+    <lastBuildDate>Wed, 14 Oct 2015 22:15:19 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Lab-1 of Distributed Programming</title>
+        <description>&lt;h2 id=&quot;project-goal&quot;&gt;Project Goal&lt;/h2&gt;
+&lt;p&gt;This project is about using hdfs to store video data.&lt;/p&gt;
+
+&lt;h2 id=&quot;install-hadoop&quot;&gt;Install Hadoop&lt;/h2&gt;
+&lt;p&gt;I referred to [1][2] for installation of Hadoop.&lt;/p&gt;
+
+&lt;h2 id=&quot;casting-video-and-receiving-data-stream&quot;&gt;Casting video and receiving data stream&lt;/h2&gt;
+&lt;p&gt;The casting step is discussed on page 56 of [3]. I manually casted the video located at “/home/hadoop/Desktop/lab-1/demo.mp4” and sent streams to “rtp://239.1.1.1:5004”.&lt;/p&gt;
+
+&lt;p&gt;The code of receiving stream is shown below:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;command_vlc_receive&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]={&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/bin/sh&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;-c&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;vlc -vvv rtp://239.1.1.1:5004 --sout file/ts:/home/hadoop/Desktop/lab-1/stream.mp4&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;};&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Runtime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getRuntime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;exec&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;command_vlc_receive&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;waitFor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Notice the “.waitFor()” at the end of the second line. This method allows us to receive all streams before uploading the video to hdfs.&lt;/p&gt;
+
+&lt;h2 id=&quot;upload-video-to-hdfs&quot;&gt;Upload video to HDFS&lt;/h2&gt;
+&lt;p&gt;Most of codes are provided on page 57 of [4].&lt;/p&gt;
+
+&lt;h2 id=&quot;reference&quot;&gt;Reference:&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://dblab.xmu.edu.cn/blog/install-hadoop/&quot;&gt;Hadoop安装教程_单机/伪分布式配置&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://dblab.xmu.edu.cn/blog/hadoop-build-project-using-eclipse/&quot;&gt;使用Eclipse编译运行MapReduce程序&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.linuxidc.com/Linux/2013-05/85132.htm&quot;&gt;实战hadoop:开启通向云计算的捷径(作者刘鹏)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.videolan.org/doc/streaming-howto/en&quot;&gt;Using VLC to send&amp;amp;recieve video streams&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sun, 11 Oct 2015 00:00:00 +0800</pubDate>
+        <link>/2015/10/11/Lab-1-Distributed-System.html</link>
+        <guid isPermaLink="true">/2015/10/11/Lab-1-Distributed-System.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Git Essential</title>
@@ -202,6 +238,9 @@ git merge XXX: 把XXX_branch合并到当前所在的branch&lt;br /&gt;&lt;/p&gt;
   &lt;li&gt;简单使用git推荐使用UI界面，&lt;br /&gt;&lt;/li&gt;
   &lt;li&gt;在项目工作中学习Git,了解Git的重要性.&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h3 id=&quot;small-notes&quot;&gt;Small notes&lt;/h3&gt;
+&lt;p&gt;git reset –hard &lt;commit-id&gt;&lt;/commit-id&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 21 Feb 2014 00:00:00 +0800</pubDate>

@@ -6,14 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Blogs</title>
-  <meta name="description" content="So we beat on, boats against the current, borne back ceaselessly into the past.">
+  <title>Lab-1 of Distributed Programming</title>
+  <meta name="description" content="Project GoalThis project is about using hdfs to store video data.">
   <link href="http://feeds.feedburner.com/anildigital" rel="alternate" title="Anil Wadghule" type="application/atom+xml" />
 
   <link rel="shortcut icon" href="images/favicon.ico" /> 
   <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/main_resume_cleaned.css">
-  <link rel="canonical" href="/blogs.html">
+  <link rel="canonical" href="/2015/10/11/Lab-1-Distributed-System.html">
   <link rel="alternate" type="application/rss+xml" title="Jiaming Shen's Homepage" href="/feed.xml" />
 </head>
 
@@ -73,17 +73,48 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div id="home">
-  <h1>Blogs (3 posts)</h1>
-  <ul class="posts">
-    
-      <li><span>11 Oct 2015</span> &raquo; <a href="/2015/10/11/Lab-1-Distributed-System.html">Lab-1 of Distributed Programming</a></li>
-    
-      <li><span>21 Feb 2014</span> &raquo; <a href="/2014/02/21/Git.html">Git Essential</a></li>
-    
-      <li><span>19 Feb 2014</span> &raquo; <a href="/2014/02/19/Github-page-config.html">使用Github Pages + Jekyll 搭建个人Blog</a></li>
-    
-  </ul>
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Lab-1 of Distributed Programming</h1>
+    <p class="post-meta">Oct 11, 2015</p>
+  </header>
+
+  <article class="post-content">
+    <h2 id="project-goal">Project Goal</h2>
+<p>This project is about using hdfs to store video data.</p>
+
+<h2 id="install-hadoop">Install Hadoop</h2>
+<p>I referred to [1][2] for installation of Hadoop.</p>
+
+<h2 id="casting-video-and-receiving-data-stream">Casting video and receiving data stream</h2>
+<p>The casting step is discussed on page 56 of [3]. I manually casted the video located at “/home/hadoop/Desktop/lab-1/demo.mp4” and sent streams to “rtp://239.1.1.1:5004”.</p>
+
+<p>The code of receiving stream is shown below:</p>
+
+<div class="highlight"><pre><code class="language-java" data-lang="java"><span class="n">String</span> <span class="n">command_vlc_receive</span><span class="o">[]={</span><span class="s">&quot;/bin/sh&quot;</span><span class="o">,</span><span class="s">&quot;-c&quot;</span><span class="o">,</span><span class="s">&quot;vlc -vvv rtp://239.1.1.1:5004 --sout file/ts:/home/hadoop/Desktop/lab-1/stream.mp4&quot;</span><span class="o">};</span>
+<span class="n">Runtime</span><span class="o">.</span><span class="na">getRuntime</span><span class="o">().</span><span class="na">exec</span><span class="o">(</span><span class="n">command_vlc_receive</span><span class="o">).</span><span class="na">waitFor</span><span class="o">();</span></code></pre></div>
+
+<p>Notice the “.waitFor()” at the end of the second line. This method allows us to receive all streams before uploading the video to hdfs.</p>
+
+<h2 id="upload-video-to-hdfs">Upload video to HDFS</h2>
+<p>Most of codes are provided on page 57 of [4].</p>
+
+<h2 id="reference">Reference:</h2>
+<ol>
+  <li><a href="http://dblab.xmu.edu.cn/blog/install-hadoop/">Hadoop安装教程_单机/伪分布式配置</a></li>
+  <li><a href="http://dblab.xmu.edu.cn/blog/hadoop-build-project-using-eclipse/">使用Eclipse编译运行MapReduce程序</a></li>
+  <li><a href="http://www.linuxidc.com/Linux/2013-05/85132.htm">实战hadoop:开启通向云计算的捷径(作者刘鹏)</a></li>
+  <li><a href="https://www.videolan.org/doc/streaming-howto/en">Using VLC to send&amp;recieve video streams</a></li>
+</ol>
+
+<!--     <div class="view_comments_link">
+      <a href="/2015/10/11/Lab-1-Distributed-System.html#disqus_thread">View Comments</a> <br />
+      <div id="disqus_thread"></div>
+      <script type="text/javascript" src="http://disqus.com/forums/anilsweblog/embed.js"></script>
+      <noscript><a href="http://anilsweblog.disqus.com/?url=ref">View the discussion thread</a></noscript>
+    </div> -->
+  </article>
 
 </div>
 
