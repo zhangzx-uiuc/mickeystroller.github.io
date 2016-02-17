@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>/2015/10/11/Lab-1-Distributed-System.html</loc>
+    <lastmod>2015-10-11T00:00:00-05:00</lastmod>
+  </url>
+  <url>
+    <loc>/2014/02/21/Git.html</loc>
+    <lastmod>2014-02-21T00:00:00-06:00</lastmod>
+  </url>
+  <url>
+    <loc>/2014/02/19/Github-page-config.html</loc>
+    <lastmod>2014-02-19T00:00:00-06:00</lastmod>
+  </url>
+  <url>
+    <loc>/blogs.html</loc>
+  </url>
+  <url>
+    <loc>/cv.html</loc>
+  </url>
+  <url>
+    <loc>/</loc>
+  </url>
+  <url>
+    <loc>/projects.html</loc>
+  </url>
+  <url>
+    <loc>/research.html</loc>
+  </url>
+</urlset>
