@@ -16,7 +16,7 @@ markdown: kramdown
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Jiaming Shen"
-resume_title:                   "Nuclear Safety Inspector"
+resume_title:                   "Computer Scientist"
 resume_contact_email:
   "mickesyjm@gmail.com"
 
