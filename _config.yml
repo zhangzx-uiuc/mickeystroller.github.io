@@ -12,6 +12,8 @@ github_username:  mickeystroller
 markdown: kramdown
 
 ## Add
+gems:
+    - jekyll-sitemap
 
 # Resume settings
 resume_avatar:                  "true"
