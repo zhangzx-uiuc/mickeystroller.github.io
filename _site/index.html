@@ -73,13 +73,20 @@
 
     <div class="page-content">
       <div class="wrapper">
-          <h2 id="intro">Short Bio</h2>
+          <h1 id="intro">Short Bio</h1>
   <div>
   </div>
-  <p>I am a senior student at <a href="http://en.sjtu.edu.cn/" target = "_blank",rel="nofollow">Shanghai Jiao Tong University (SJTU)</a>, Shanghai, China.</p> 
+  <p style = "font-size:18px;">I am a first year Ph.D. candidate in Prof. <a href = "http://hanj.cs.illinois.edu/" target = "_blank", rel="nofollow">Jiawei Han</a>'s <a href="http://dmserv2.cs.illinois.edu/dmg/index.html" target = "_blank", rel="nofollow">Data Mining Group</a>, Department of Computer Science, University of Illinois at Urbana-Champaign. </p>
+  <p style = "font-size:18px;">Before going to UIUC, I got my bachelor degree from Shangai Jiao Tong University, and was a member of <a href="http://english.seiee.sjtu.edu.cn/english/info/8338.htm" target = "_blank">IEEE Honor Class</a>. 
+
+
+<!-- 
+
+
+  <p>I am a first year Ph.D. student at <a href="http://en.sjtu.edu.cn/" target = "_blank",rel="nofollow">Shanghai Jiao Tong University (SJTU)</a>, Shanghai, China.</p> 
   <p>I major in <a href="http://www.cs.sjtu.edu.cn/en/" target = "_blank",rel="nofollow">Computer Science</a>, and is from <a href="http://english.seiee.sjtu.edu.cn/english/info/8338.htm" target = "_blank">IEEE Honor Class</a> in the <a href="http://english.seiee.sjtu.edu.cn/" target="_blank",rel="nofollow">School of Electronic Information and Electrical Engineering</a>.</p> 
   <p>I am an undergraduate research assistant at the <a href="http://iiot.sjtu.edu.cn" target="_blank",rel="nofollow">Intelligent Internet of Things(IIoT) of SJTU</a>, and I am working under the guidance of <a href="http://iwct.sjtu.edu.cn/Personal/xwang8/index.html" target="_blank",rel="nofollow">Prof. Xinbing Wang</a> now. </p>
-  
+   -->
   
 <table>
 	<tbody>
@@ -89,363 +96,44 @@
   <!-- Short Bio -->
 
   <!-- Area of Interests -->
-  <h2 id="intro">Area of Interests</h2>
+  <h1 id="intro">Area of Interests</h1>
   <div>
   </div>
-  <p>My primary areas of interests in research include: </p>
+  <p style = "font-size:18px">My primary areas of interests in research include: </p>
   <ul>
-    <li>Large-scale Data Mining</li>
-    <li>Statistical Machine Learning</li>
-	<li>Representation Learning</li>
+    <li>Data Mining</li>
+    <li>Information Retrieval System</li>
+	<li>Mathematical Optimization</li>
   </ul>
 
-  <p>My primary areas of interests in engineering include: </p>
+  <p style = "font-size:18px">My primary areas of interests in engineering include: </p>
   <ul>
-	<li>Data Wrangling</li>
+	  <li>Data Wrangling</li>
     <li>Web front-end Development</li>
     <li>Mobile Application Development</li>
   </ul>
 
+
   <!-- Contact -->
-  <h2 id="intro">Contact</h2>
+  <h1 id="intro">Contact</h1>
   <table>
     <tbody>
       <tr>
         <td style="vertical-align: top;"><b>Address</b></td>
         <td style="padding-left: 50px;">
-          SEIEE Buildings 1#, Room 432, <br>
-          Shanghai Jiao Tong University, <br>
-          800 Dongchuan Road, Minhang, <br>
-          Shanghai, 200240 P.R. China
+          Room 1322, Thomas M. Siebel Center,<br>
+          201 N. Goodwin Avenue, <br>
+          Urbana, IL 61801 USA. <br>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"><b>Email</b></td>
+        <td style="padding-left: 50px;">
+          js2[at]illinois.edu<br>
         </td>
       </tr>
     </tbody>
   </table>
-
-
-<!--   
-    <div class="post">
-      <h2><a href="/2015/10/11/Lab-1-Distributed-System.html">Lab-1 of Distributed Programming</a></h2>
-      <span class="date">October 11, 2015</span>
-      <h2 id="project-goal">Project Goal</h2>
-<p>This project is about using hdfs to store video data.</p>
-
-<h2 id="install-hadoop">Install Hadoop</h2>
-<p>I referred to [1][2] for installation of Hadoop.</p>
-
-<h2 id="casting-video-and-receiving-data-stream">Casting video and receiving data stream</h2>
-<p>The casting step is discussed on page 56 of [3]. I manually casted the video located at “/home/hadoop/Desktop/lab-1/demo.mp4” and sent streams to “rtp://239.1.1.1:5004”.</p>
-
-<p>The code of receiving stream is shown below:</p>
-
-<div class="highlight"><pre><code class="language-java" data-lang="java"><span class="n">String</span> <span class="n">command_vlc_receive</span><span class="o">[]={</span><span class="s">&quot;/bin/sh&quot;</span><span class="o">,</span><span class="s">&quot;-c&quot;</span><span class="o">,</span><span class="s">&quot;vlc -vvv rtp://239.1.1.1:5004 --sout file/ts:/home/hadoop/Desktop/lab-1/stream.mp4&quot;</span><span class="o">};</span>
-<span class="n">Runtime</span><span class="o">.</span><span class="na">getRuntime</span><span class="o">().</span><span class="na">exec</span><span class="o">(</span><span class="n">command_vlc_receive</span><span class="o">).</span><span class="na">waitFor</span><span class="o">();</span></code></pre></div>
-
-<p>Notice the “.waitFor()” at the end of the second line. This method allows us to receive all streams before uploading the video to hdfs.</p>
-
-<h2 id="upload-video-to-hdfs">Upload video to HDFS</h2>
-<p>Most of codes are provided on page 57 of [4].</p>
-
-<h2 id="reference">Reference:</h2>
-<ol>
-  <li><a href="http://dblab.xmu.edu.cn/blog/install-hadoop/">Hadoop安装教程_单机/伪分布式配置</a></li>
-  <li><a href="http://dblab.xmu.edu.cn/blog/hadoop-build-project-using-eclipse/">使用Eclipse编译运行MapReduce程序</a></li>
-  <li><a href="http://www.linuxidc.com/Linux/2013-05/85132.htm">实战hadoop:开启通向云计算的捷径(作者刘鹏)</a></li>
-  <li><a href="https://www.videolan.org/doc/streaming-howto/en">Using VLC to send&amp;recieve video streams</a></li>
-</ol>
-
-      <div class="view_comments_link">
-        <a href="/2015/10/11/Lab-1-Distributed-System.html#disqus_thread">View Comments</a> <br />
-      </div>
-    </div>
-  
-    <div class="post">
-      <h2><a href="/2014/02/21/Git.html">Git Essential</a></h2>
-      <span class="date">February 21, 2014</span>
-      <p><strong>Git Essential 系列教程看完后的笔记，非常零乱，Just for Reference <br /></strong></p>
-
-<h3 id="lesson-1-config">Lesson 1: config</h3>
-<ul>
-  <li>homebrew <br /></li>
-</ul>
-
-<p>进入http://brew.sh/  参考git essential视频1   <br /></p>
-
-<p>此时与系统自带的git版本冲突，开始安装vim <br /></p>
-
-<ul>
-  <li>vim <br />
-brew search vim -&gt; brew install macvim</li>
-</ul>
-
-<h3 id="lesson-2-config">Lesson 2: config</h3>
-<p>git config —global user.name/emai = “XXX”   命令 <br /></p>
-
-<h3 id="lesson-3-init">Lesson 3: init</h3>
-<p>git init <br /></p>
-
-<h3 id="lesson-4-add">☆Lesson 4: add</h3>
-<p>git status &amp; git add <br />
-理解add的含义：一个文件三个不同的状态： <br />
-1. Changes to be committed<br />
-2. Changes not staged for commit <br />
-3. Untracked files (原始创建文件的状态) <br /></p>
-
-<p>trick:
-git add .  (加一个. 表示当前文件夹下所有文件全部add)</p>
-
-<h3 id="lesson-5-commit">☆Lesson 5: commit</h3>
-<p>git commit <br />
-git commit -a （-a表示追加 add+commit 一同完成）<br />
-git commit -m ‘commit message’<br />
-git commit -am ‘commit message’<br /></p>
-
-<h3 id="lesson-6-ignore">Lesson 6: ignore</h3>
-<p>vim .gitignore (在project的根目录下使用) <br />
-.gitignore文件下文件命名法则：<br />
-.DS_Store<br />
-tmp<br />
-<em>.swp~<br />
-test/</em>.txt （不追踪test下的txt文件）<br />
-!test/master.txt  （在上一条的规则下，追踪master.txt）<br /></p>
-
-<h3 id="lesson-7-theory">Lesson 7: Theory</h3>
-<ol>
-  <li>Working Directory (project文件夹) <br /></li>
-  <li>Staging Area(index) (一次次的add) (: 每修改一个地方之后是add，而完成一个整个有意义的修改之后再是commit -&gt; commit message 才能有意义) <br /></li>
-  <li>Git Repository (核心是project下的 .git文件夹) <br /></li>
-</ol>
-
-<h3 id="lesson-8-theory--internals">☆Lesson 8: Theory —— Internals</h3>
-<ol>
-  <li>Blob : How git stores file contents  <br /></li>
-  <li>Tree : How git stores Directory list <br />
-           ①Header information<br />
-           ②For each file and directory in the directory:<br />
-               file permissions <br />
-               object type(blob or tree)<br />
-               sha-1<br />
-               filename<br /></li>
-  <li>Commit : How git stores “snapshot!”<br />
-            author information<br />
-            committer information<br />
-            commit message<br />
-            sha-1 of any parent commits<br />
-            sha-1 of the tree that the commit points
-  两个图片的例子<br /></li>
-  <li>Git Reference:<br />
-  两个例子： ①branch / head
-                     ②merge影响<br /></li>
-</ol>
-
-<h3 id="lesson-9-diff">Lesson 9: diff</h3>
-<p>git diff  filename     比对文件修改处<br />
-git diff –staged filename   和目前staged状态的文件对比<br />
-git diff HEAD filename   和目前commit状态的文件对比<br />
-不加filename 对比整个project目录下得修改<br /></p>
-
-<h3 id="lesson-10-log">Lesson 10: log</h3>
-<p>git log<br /> 
-git log –oneline<br />
-git log –graph<br />
-git log –pretty=“%h, %cn, %cr “  修饰符参考： http://git-scm.com/docs/git-log<br />
-gitk 图形化页面<br />
-之后使用:q 退出<br /></p>
-
-<h3 id="lesson-11-branch">☆Lesson 11: branch</h3>
-<p>git branch  : 查看所有branch以及目前所在的branch<br />
-git branch experimental-1  : 创建一个branch叫做branch,但目前不在这个branch<br />
-git checkout experimental-1 : 切换到这个branch<br /></p>
-
-<p>注意理解commit与branch的关系<br />
-如果仅仅修改contents而不commit，在所有的branch上都会显示files被modified<br />
-直到在某个branch上修改被commit之后，才会在对应的branch上显示出来。<br /></p>
-
-<p>git checkout -b bug-fix-1 ： 创建branch: bug-fix-1 与此同时切换到这个branch上<br />
-git log –online –graph –all：显示所有branch上得commit<br />
-git log –online –graph –all –decorate: <br /></p>
-
-<h3 id="lesson-12--merge">Lesson 12:  merge</h3>
-<p>git alias gl= “git log –oneline –graph –all –decorate”<br />
-git merge branch_name : 把branch_name代表的branch合并到目前所在的branch，这个merge操作相当于一个commit.<br />
-git branch -d branch_name: 删除branch<br />
-git rebase branch_name: 含义见5:30处<br /></p>
-
-<h3 id="lesson-13-github">Lesson 13: github</h3>
-<p>配置ssh链接github的教程</p>
-
-<h3 id="lesson-14-github-tour">Lesson 14: github-tour</h3>
-<p>简介github功能</p>
-
-<h3 id="lesson-15-remote-push-pull">☆Lesson 15: remote-push-pull</h3>
-<p>// 把本地的repository提交到github <br />
-①git remote add “name of remote” “link”
-     <br />e.g: git remote add origin git@github…<br />
-git remote <br />
-②git push <name of="" remote=""> <name of="" branch=""><br />
-     e.g:git push origin master</name></name></p>
-
-<p>//把github的内容拉到本地repository <br />
-git pull <br />
-上述做法缺点是会自动完成merge工序，覆盖掉了本地未提交的修改。改进如下：<br />
-①git fetch<br />
-②切换到master分支<br />
-③git merge origin/master<br /></p>
-
-<h3 id="lesson-16-github-page">Lesson 16: github-page</h3>
-<p>两种建立pages的方法——非UI<br />
-建立UI的页面——参考pages.github.com<br /></p>
-
-<h3 id="lesson-17-interactive-add">Lesson 17: interactive-add</h3>
-<p>git add -i //切出一个页面，控制更详细的add<br />
-     特别注意其中的patch方法，可以把文件中的一处处修改分开来add,而非add一整个文件<br />
-git add -p //上述方法的缩写<br />
-进入git add -p之后，y/n表示是否stage某处修改，s表示split此处修改(使之细分)<br /></p>
-
-<h3 id="lesson-18git-stash">Lesson 18:git-stash</h3>
-<p>stash：藏匿<br />
-git stash会把目前没有add的修改存放到一边,<br />
-git stash list: 查看目前stash的内容<br />
-git stash save “stash message” （stash的过程中提交stash message）<br />
-git stash apply 还原最近的一次stash （但不会删掉这个stash）<br />
-git stash apply 后面加一个index，apply指定的一次stash<br />
-git stash pop 还原最近的一次stash （同时删掉这个stash）<br />
-git stash drop 扔掉最近的一次stash<br /></p>
-
-<h3 id="lesson-19-aliases">Lesson 19: aliases</h3>
-<p>① 利用git的bulid-in功能<br />
-git config –global alias.(short command) (original command)<br />
-e.g. git config –global alias.s status<br />
-查看 cat ~/.gitconfig<br />
-② 利用bash的功能<br />
-     命令行里：vim .bash_profile<br />
-     输入：alias ga=“git add”<br />
-               alias gst=“git status”<br />
-               alias gi=“git add -i”<br />
-     命令行里：source ~/.bash_profile<br /></p>
-
-<h3 id="lesson-20-merge-conflict">Lesson 20: merge-conflict</h3>
-<p>conflict的产生：在两个branch上对同一处进行了无法合并的修改并且commit了，当merge时会出现conflict<br /></p>
-
-<p>解决方法：根据git的反馈结果去自行修改冲突，选择留下来的版本<br /></p>
-
-<p>复习branch:<br />
-git branch：查看branch<br />
-git branch XXX: 创建branch（但停留在当前branch）<br />
-git checkout XXX: 切换到XXX_branch<br />
-git checkout -b XXX: 创建branch_XXX，同时切换到这个branch<br />
-git merge XXX: 把XXX_branch合并到当前所在的branch<br /></p>
-
-<h3 id="lesson-21-guis">Lesson 21: guis</h3>
-<p>介绍了图形化的git页面，介绍了github:mac</p>
-
-<h3 id="lesson-22vcprompt">Lesson 22:vcprompt</h3>
-<p>快速查看目前的git状态<br />
-使用第三方插件： https://github.com/djl/vcprompt<br /></p>
-
-<h3 id="lesson-23-conclusion">Lesson 23: conclusion</h3>
-<p>提供了一些深度学习git的资源链接</p>
-
-<h2 id="section">总结</h2>
-
-<ul>
-  <li>了解git的底层推荐使用命令行，<br /></li>
-  <li>简单使用git推荐使用UI界面，<br /></li>
-  <li>在项目工作中学习Git,了解Git的重要性.<br /></li>
-</ul>
-
-<h3 id="small-notes">Small notes</h3>
-<p>git reset –hard <commit-id></commit-id></p>
-
-
-      <div class="view_comments_link">
-        <a href="/2014/02/21/Git.html#disqus_thread">View Comments</a> <br />
-      </div>
-    </div>
-  
-    <div class="post">
-      <h2><a href="/2014/02/19/Github-page-config.html">使用Github Pages + Jekyll 搭建个人Blog</a></h2>
-      <span class="date">February 19, 2014</span>
-      <p>简单介绍了Jekyll配置过程中的关键点和注意事项，包含一些上传github的git操作, 以及一些过程中涉及到的参考资料</p>
-
-<h2 id="jekyll-">Jekyll 配置</h2>
-
-<p>这里主要介绍 Mac OS 环境的安装，如果是Windows的话需要先安装ruby和ruby gem.</p>
-
-<p>参考<a href="http://jekyllrb.com/docs/installation/">官方教程</a>
-核心其实就是一句</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span></code></pre></div>
-
-<p>问题就是，由于GFW的存在… 所以直接这样会卡死不动，而是需要我们改gem源</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">sudo</span> <span class="n">gem</span> <span class="n">sources</span> <span class="o">--</span><span class="n">remove</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="n">rubygems</span><span class="o">.</span><span class="n">org</span><span class="o">/</span>
-<span class="err">$</span> <span class="n">sudo</span> <span class="n">gem</span> <span class="n">sources</span> <span class="o">-</span><span class="n">a</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="n">ruby</span><span class="o">.</span><span class="n">taobao</span><span class="o">.</span><span class="n">org</span><span class="o">/</span></code></pre></div>
-
-<p>修改完源之后在使用gem安装jekyll，如果报错，就改为：</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">sudo</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span></code></pre></div>
-
-<p>如果再报错“Failed to build gem native extension”，很可能是没有安装rvm，可以敲入下面的命令：</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">curl</span> <span class="o">-</span><span class="n">L</span> <span class="ss">https</span><span class="p">:</span><span class="sr">//</span><span class="n">get</span><span class="o">.</span><span class="n">rvm</span><span class="o">.</span><span class="n">io</span> <span class="o">|</span> <span class="n">bash</span> <span class="o">-</span><span class="n">s</span> <span class="n">stable</span> <span class="o">--</span><span class="n">ruby</span></code></pre></div>
-
-<p>到此jekyll就安装完成了,下面安装一个Markdown解释器:</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">sudo</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span> <span class="n">rdiscount</span></code></pre></div>
-
-<p>然后在_config.yml里面设定 markdown: rdiscount</p>
-
-<p>到此jekyll配置完成，cd到根目录下,输入下面命令即可运行。</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">jekyll</span> <span class="n">server</span> <span class="o">--</span><span class="n">watch</span></code></pre></div>
-
-<p><br /></p>
-
-<h2 id="git">基本Git操作</h2>
-
-<ol>
-  <li>git status (查看当前状态)</li>
-  <li>git add . (stage全部文件)</li>
-  <li>git commit -m “commit message” (commit)</li>
-  <li>git branch (查看所有branch以及目前所在的branch)</li>
-  <li>git branch master (切换到master branch)</li>
-  <li>git push origin master (提交到服务器)</li>
-</ol>
-
-<p><br /></p>
-
-<h2 id="reference">Reference</h2>
-
-<ol>
-  <li><a href="pages.github.com">Github Pages 官方文档</a></li>
-  <li><a href="http://git-scm.com/about">Git 官方文档</a></li>
-  <li><a href="http://wowubuntu.com/markdown/basic.html">Markdown 语法说明</a></li>
-  <li><a href="http://jekyllrb.com/docs/installation/">Jekyll 官方文档</a></li>
-  <li><strong><a href="http://beiyuu.com/github-pages/">使用Github Pages建立博客</a></strong></li>
-</ol>
-
-
-      <div class="view_comments_link">
-        <a href="/2014/02/19/Github-page-config.html#disqus_thread">View Comments</a> <br />
-      </div>
-    </div>
-   -->
-
-<!--   <div id="related">
-    <div class="related_left">
-      <h2>Previous posts</h2>
-      <ul class="posts small">
-        
-      </ul>
-    </div>
-    <div class="related_right">
-      <h2>Older posts... (see <a href="/archive.html">archive</a> for more)</h2>
-      <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
-
-    </div>
-  </div> -->
-
 
 </div>
 			</td>
@@ -460,6 +148,8 @@ git merge XXX: 把XXX_branch合并到当前所在的branch<br /></p>
 	</tbody>
 </table>
 
+  <h1 id="intro" style="margin-top:30px;">What's new!</h1>
+  <p style = "font-size:18px">I have received the <b>Brian Totty Graduate Fellowship</b> at University of Illinois at Urbana-Champaign.</p>
   
    <h2 id="intro" style="margin-top:30px;">About this site</h2>
    <div>
@@ -487,7 +177,7 @@ git merge XXX: 把XXX_branch合并到当前所在的branch<br /></p>
         <ul class="contact-list">
           <!-- <li>Jiaming Shen's Homepage</li> -->
           <li><a href="mailto:mickeysjm@gmail.com">mickeysjm@gmail.com</a></li>
-          <li>Currently in SJTU</li>
+          <li>Currently in UIUC</li>
         </ul>
       </div>
 

@@ -90,30 +90,30 @@
 <p>参考<a href="http://jekyllrb.com/docs/installation/">官方教程</a>
 核心其实就是一句</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span></code></pre></figure>
 
 <p>问题就是，由于GFW的存在… 所以直接这样会卡死不动，而是需要我们改gem源</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">sudo</span> <span class="n">gem</span> <span class="n">sources</span> <span class="o">--</span><span class="n">remove</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="n">rubygems</span><span class="o">.</span><span class="n">org</span><span class="o">/</span>
-<span class="err">$</span> <span class="n">sudo</span> <span class="n">gem</span> <span class="n">sources</span> <span class="o">-</span><span class="n">a</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//</span><span class="n">ruby</span><span class="o">.</span><span class="n">taobao</span><span class="o">.</span><span class="n">org</span><span class="o">/</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">sudo</span> <span class="n">gem</span> <span class="n">sources</span> <span class="o">--</span><span class="n">remove</span> <span class="n">http</span><span class="ss">:/</span><span class="o">/</span><span class="n">rubygems</span><span class="p">.</span><span class="nf">org</span><span class="o">/</span>
+<span class="err">$</span> <span class="n">sudo</span> <span class="n">gem</span> <span class="n">sources</span> <span class="o">-</span><span class="n">a</span> <span class="n">http</span><span class="ss">:/</span><span class="o">/</span><span class="n">ruby</span><span class="p">.</span><span class="nf">taobao</span><span class="p">.</span><span class="nf">org</span><span class="o">/</span></code></pre></figure>
 
 <p>修改完源之后在使用gem安装jekyll，如果报错，就改为：</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">sudo</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">sudo</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span></code></pre></figure>
 
 <p>如果再报错“Failed to build gem native extension”，很可能是没有安装rvm，可以敲入下面的命令：</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">curl</span> <span class="o">-</span><span class="n">L</span> <span class="ss">https</span><span class="p">:</span><span class="sr">//</span><span class="n">get</span><span class="o">.</span><span class="n">rvm</span><span class="o">.</span><span class="n">io</span> <span class="o">|</span> <span class="n">bash</span> <span class="o">-</span><span class="n">s</span> <span class="n">stable</span> <span class="o">--</span><span class="n">ruby</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">curl</span> <span class="o">-</span><span class="no">L</span> <span class="n">https</span><span class="ss">:/</span><span class="o">/</span><span class="n">get</span><span class="p">.</span><span class="nf">rvm</span><span class="p">.</span><span class="nf">io</span> <span class="o">|</span> <span class="n">bash</span> <span class="o">-</span><span class="n">s</span> <span class="n">stable</span> <span class="o">--</span><span class="n">ruby</span></code></pre></figure>
 
 <p>到此jekyll就安装完成了,下面安装一个Markdown解释器:</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">sudo</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span> <span class="n">rdiscount</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">sudo</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span> <span class="n">rdiscount</span></code></pre></figure>
 
 <p>然后在_config.yml里面设定 markdown: rdiscount</p>
 
 <p>到此jekyll配置完成，cd到根目录下,输入下面命令即可运行。</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">jekyll</span> <span class="n">server</span> <span class="o">--</span><span class="n">watch</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">jekyll</span> <span class="n">server</span> <span class="o">--</span><span class="n">watch</span> </code></pre></figure>
 
 <p><br /></p>
 
@@ -165,7 +165,7 @@
         <ul class="contact-list">
           <!-- <li>Jiaming Shen's Homepage</li> -->
           <li><a href="mailto:mickeysjm@gmail.com">mickeysjm@gmail.com</a></li>
-          <li>Currently in SJTU</li>
+          <li>Currently in UIUC</li>
         </ul>
       </div>
 

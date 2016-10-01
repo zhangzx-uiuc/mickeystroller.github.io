@@ -1,58 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jiaming Shen&#39;s Homepage</title>
+    <title>Jiaming Shen's Homepage</title>
     <description>So we beat on, boats against the current, borne back ceaselessly into the past.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Feb 2016 11:47:37 -0600</pubDate>
-    <lastBuildDate>Wed, 17 Feb 2016 11:47:37 -0600</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
-    
-      <item>
-        <title>Lab-1 of Distributed Programming</title>
-        <description>&lt;h2 id=&quot;project-goal&quot;&gt;Project Goal&lt;/h2&gt;
-&lt;p&gt;This project is about using hdfs to store video data.&lt;/p&gt;
-
-&lt;h2 id=&quot;install-hadoop&quot;&gt;Install Hadoop&lt;/h2&gt;
-&lt;p&gt;I referred to [1][2] for installation of Hadoop.&lt;/p&gt;
-
-&lt;h2 id=&quot;casting-video-and-receiving-data-stream&quot;&gt;Casting video and receiving data stream&lt;/h2&gt;
-&lt;p&gt;The casting step is discussed on page 56 of [3]. I manually casted the video located at “/home/hadoop/Desktop/lab-1/demo.mp4” and sent streams to “rtp://239.1.1.1:5004”.&lt;/p&gt;
-
-&lt;p&gt;The code of receiving stream is shown below:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;command_vlc_receive&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]={&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/bin/sh&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;-c&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;vlc -vvv rtp://239.1.1.1:5004 --sout file/ts:/home/hadoop/Desktop/lab-1/stream.mp4&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;};&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;Runtime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getRuntime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;exec&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;command_vlc_receive&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;waitFor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Notice the “.waitFor()” at the end of the second line. This method allows us to receive all streams before uploading the video to hdfs.&lt;/p&gt;
-
-&lt;h2 id=&quot;upload-video-to-hdfs&quot;&gt;Upload video to HDFS&lt;/h2&gt;
-&lt;p&gt;Most of codes are provided on page 57 of [4].&lt;/p&gt;
-
-&lt;h2 id=&quot;reference&quot;&gt;Reference:&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://dblab.xmu.edu.cn/blog/install-hadoop/&quot;&gt;Hadoop安装教程_单机/伪分布式配置&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://dblab.xmu.edu.cn/blog/hadoop-build-project-using-eclipse/&quot;&gt;使用Eclipse编译运行MapReduce程序&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.linuxidc.com/Linux/2013-05/85132.htm&quot;&gt;实战hadoop:开启通向云计算的捷径(作者刘鹏)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.videolan.org/doc/streaming-howto/en&quot;&gt;Using VLC to send&amp;amp;recieve video streams&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Sun, 11 Oct 2015 00:00:00 -0500</pubDate>
-        <link>/2015/10/11/Lab-1-Distributed-System.html</link>
-        <guid isPermaLink="true">/2015/10/11/Lab-1-Distributed-System.html</guid>
-        
-        
-      </item>
+    <pubDate>Sat, 01 Oct 2016 01:29:57 -0500</pubDate>
+    <lastBuildDate>Sat, 01 Oct 2016 01:29:57 -0500</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>Git Essential</title>
         <description>&lt;p&gt;&lt;strong&gt;Git Essential 系列教程看完后的笔记，非常零乱，Just for Reference &lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;lesson-1-config&quot;&gt;Lesson 1: config&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;homebrew &lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;###Lesson 1: config
++ homebrew &lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;进入http://brew.sh/  参考git essential视频1   &lt;br /&gt;&lt;/p&gt;
 
@@ -63,14 +25,14 @@
 brew search vim -&amp;gt; brew install macvim&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;lesson-2-config&quot;&gt;Lesson 2: config&lt;/h3&gt;
-&lt;p&gt;git config —global user.name/emai = “XXX”   命令 &lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;###Lesson 2: config
+git config —global user.name/emai = “XXX”   命令 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;lesson-3-init&quot;&gt;Lesson 3: init&lt;/h3&gt;
-&lt;p&gt;git init &lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;###Lesson 3: init
+git init &lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;lesson-4-add&quot;&gt;☆Lesson 4: add&lt;/h3&gt;
-&lt;p&gt;git status &amp;amp; git add &lt;br /&gt;
+&lt;p&gt;###☆Lesson 4: add
+git status &amp;amp; git add &lt;br /&gt;
 理解add的含义：一个文件三个不同的状态： &lt;br /&gt;
 1. Changes to be committed&lt;br /&gt;
 2. Changes not staged for commit &lt;br /&gt;
@@ -79,14 +41,14 @@ brew search vim -&amp;gt; brew install macvim&lt;/li&gt;
 &lt;p&gt;trick:
 git add .  (加一个. 表示当前文件夹下所有文件全部add)&lt;/p&gt;
 
-&lt;h3 id=&quot;lesson-5-commit&quot;&gt;☆Lesson 5: commit&lt;/h3&gt;
-&lt;p&gt;git commit &lt;br /&gt;
+&lt;p&gt;###☆Lesson 5: commit
+git commit &lt;br /&gt;
 git commit -a （-a表示追加 add+commit 一同完成）&lt;br /&gt;
 git commit -m ‘commit message’&lt;br /&gt;
 git commit -am ‘commit message’&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;lesson-6-ignore&quot;&gt;Lesson 6: ignore&lt;/h3&gt;
-&lt;p&gt;vim .gitignore (在project的根目录下使用) &lt;br /&gt;
+&lt;p&gt;###Lesson 6: ignore
+vim .gitignore (在project的根目录下使用) &lt;br /&gt;
 .gitignore文件下文件命名法则：&lt;br /&gt;
 .DS_Store&lt;br /&gt;
 tmp&lt;br /&gt;
@@ -94,51 +56,47 @@ tmp&lt;br /&gt;
 test/&lt;/em&gt;.txt （不追踪test下的txt文件）&lt;br /&gt;
 !test/master.txt  （在上一条的规则下，追踪master.txt）&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;lesson-7-theory&quot;&gt;Lesson 7: Theory&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Working Directory (project文件夹) &lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;Staging Area(index) (一次次的add) (: 每修改一个地方之后是add，而完成一个整个有意义的修改之后再是commit -&amp;gt; commit message 才能有意义) &lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;Git Repository (核心是project下的 .git文件夹) &lt;br /&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;###Lesson 7: Theory
+1. Working Directory (project文件夹) &lt;br /&gt;
+2. Staging Area(index) (一次次的add) (: 每修改一个地方之后是add，而完成一个整个有意义的修改之后再是commit -&amp;gt; commit message 才能有意义) &lt;br /&gt;
+3. Git Repository (核心是project下的 .git文件夹) &lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;lesson-8-theory--internals&quot;&gt;☆Lesson 8: Theory —— Internals&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Blob : How git stores file contents  &lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;Tree : How git stores Directory list &lt;br /&gt;
-           ①Header information&lt;br /&gt;
-           ②For each file and directory in the directory:&lt;br /&gt;
-               file permissions &lt;br /&gt;
-               object type(blob or tree)&lt;br /&gt;
-               sha-1&lt;br /&gt;
-               filename&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;Commit : How git stores “snapshot!”&lt;br /&gt;
-            author information&lt;br /&gt;
-            committer information&lt;br /&gt;
-            commit message&lt;br /&gt;
-            sha-1 of any parent commits&lt;br /&gt;
-            sha-1 of the tree that the commit points
-  两个图片的例子&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;Git Reference:&lt;br /&gt;
-  两个例子： ①branch / head
-                     ②merge影响&lt;br /&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;###☆Lesson 8: Theory —— Internals
+1. Blob : How git stores file contents  &lt;br /&gt;
+2. Tree : How git stores Directory list &lt;br /&gt;
+              ①Header information&lt;br /&gt;
+              ②For each file and directory in the directory:&lt;br /&gt;
+                  file permissions &lt;br /&gt;
+                  object type(blob or tree)&lt;br /&gt;
+                  sha-1&lt;br /&gt;
+                  filename&lt;br /&gt;
+3. Commit : How git stores “snapshot!”&lt;br /&gt;
+               author information&lt;br /&gt;
+               committer information&lt;br /&gt;
+               commit message&lt;br /&gt;
+               sha-1 of any parent commits&lt;br /&gt;
+               sha-1 of the tree that the commit points
+     两个图片的例子&lt;br /&gt;
+4. Git Reference:&lt;br /&gt;
+     两个例子： ①branch / head
+                        ②merge影响&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;lesson-9-diff&quot;&gt;Lesson 9: diff&lt;/h3&gt;
-&lt;p&gt;git diff  filename     比对文件修改处&lt;br /&gt;
+&lt;p&gt;###Lesson 9: diff
+git diff  filename     比对文件修改处&lt;br /&gt;
 git diff –staged filename   和目前staged状态的文件对比&lt;br /&gt;
 git diff HEAD filename   和目前commit状态的文件对比&lt;br /&gt;
 不加filename 对比整个project目录下得修改&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;lesson-10-log&quot;&gt;Lesson 10: log&lt;/h3&gt;
-&lt;p&gt;git log&lt;br /&gt; 
+&lt;p&gt;###Lesson 10: log
+git log&lt;br /&gt; 
 git log –oneline&lt;br /&gt;
 git log –graph&lt;br /&gt;
 git log –pretty=“%h, %cn, %cr “  修饰符参考： http://git-scm.com/docs/git-log&lt;br /&gt;
 gitk 图形化页面&lt;br /&gt;
 之后使用:q 退出&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;lesson-11-branch&quot;&gt;☆Lesson 11: branch&lt;/h3&gt;
-&lt;p&gt;git branch  : 查看所有branch以及目前所在的branch&lt;br /&gt;
+&lt;p&gt;###☆Lesson 11: branch
+git branch  : 查看所有branch以及目前所在的branch&lt;br /&gt;
 git branch experimental-1  : 创建一个branch叫做branch,但目前不在这个branch&lt;br /&gt;
 git checkout experimental-1 : 切换到这个branch&lt;br /&gt;&lt;/p&gt;
 
@@ -150,20 +108,20 @@ git checkout experimental-1 : 切换到这个branch&lt;br /&gt;&lt;/p&gt;
 git log –online –graph –all：显示所有branch上得commit&lt;br /&gt;
 git log –online –graph –all –decorate: &lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;lesson-12--merge&quot;&gt;Lesson 12:  merge&lt;/h3&gt;
-&lt;p&gt;git alias gl= “git log –oneline –graph –all –decorate”&lt;br /&gt;
+&lt;p&gt;###Lesson 12:  merge
+git alias gl= “git log –oneline –graph –all –decorate”&lt;br /&gt;
 git merge branch_name : 把branch_name代表的branch合并到目前所在的branch，这个merge操作相当于一个commit.&lt;br /&gt;
 git branch -d branch_name: 删除branch&lt;br /&gt;
 git rebase branch_name: 含义见5:30处&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;lesson-13-github&quot;&gt;Lesson 13: github&lt;/h3&gt;
-&lt;p&gt;配置ssh链接github的教程&lt;/p&gt;
+&lt;p&gt;###Lesson 13: github
+配置ssh链接github的教程&lt;/p&gt;
 
-&lt;h3 id=&quot;lesson-14-github-tour&quot;&gt;Lesson 14: github-tour&lt;/h3&gt;
-&lt;p&gt;简介github功能&lt;/p&gt;
+&lt;p&gt;###Lesson 14: github-tour
+简介github功能&lt;/p&gt;
 
-&lt;h3 id=&quot;lesson-15-remote-push-pull&quot;&gt;☆Lesson 15: remote-push-pull&lt;/h3&gt;
-&lt;p&gt;// 把本地的repository提交到github &lt;br /&gt;
+&lt;p&gt;###☆Lesson 15: remote-push-pull
+// 把本地的repository提交到github &lt;br /&gt;
 ①git remote add “name of remote” “link”
      &lt;br /&gt;e.g: git remote add origin git@github…&lt;br /&gt;
 git remote &lt;br /&gt;
@@ -177,18 +135,18 @@ git pull &lt;br /&gt;
 ②切换到master分支&lt;br /&gt;
 ③git merge origin/master&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;lesson-16-github-page&quot;&gt;Lesson 16: github-page&lt;/h3&gt;
-&lt;p&gt;两种建立pages的方法——非UI&lt;br /&gt;
+&lt;p&gt;###Lesson 16: github-page
+两种建立pages的方法——非UI&lt;br /&gt;
 建立UI的页面——参考pages.github.com&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;lesson-17-interactive-add&quot;&gt;Lesson 17: interactive-add&lt;/h3&gt;
-&lt;p&gt;git add -i //切出一个页面，控制更详细的add&lt;br /&gt;
+&lt;p&gt;###Lesson 17: interactive-add
+git add -i //切出一个页面，控制更详细的add&lt;br /&gt;
      特别注意其中的patch方法，可以把文件中的一处处修改分开来add,而非add一整个文件&lt;br /&gt;
 git add -p //上述方法的缩写&lt;br /&gt;
 进入git add -p之后，y/n表示是否stage某处修改，s表示split此处修改(使之细分)&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;lesson-18git-stash&quot;&gt;Lesson 18:git-stash&lt;/h3&gt;
-&lt;p&gt;stash：藏匿&lt;br /&gt;
+&lt;p&gt;###Lesson 18:git-stash
+stash：藏匿&lt;br /&gt;
 git stash会把目前没有add的修改存放到一边,&lt;br /&gt;
 git stash list: 查看目前stash的内容&lt;br /&gt;
 git stash save “stash message” （stash的过程中提交stash message）&lt;br /&gt;
@@ -197,8 +155,8 @@ git stash apply 后面加一个index，apply指定的一次stash&lt;br /&gt;
 git stash pop 还原最近的一次stash （同时删掉这个stash）&lt;br /&gt;
 git stash drop 扔掉最近的一次stash&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;lesson-19-aliases&quot;&gt;Lesson 19: aliases&lt;/h3&gt;
-&lt;p&gt;① 利用git的bulid-in功能&lt;br /&gt;
+&lt;p&gt;###Lesson 19: aliases
+① 利用git的bulid-in功能&lt;br /&gt;
 git config –global alias.(short command) (original command)&lt;br /&gt;
 e.g. git config –global alias.s status&lt;br /&gt;
 查看 cat ~/.gitconfig&lt;br /&gt;
@@ -209,8 +167,8 @@ e.g. git config –global alias.s status&lt;br /&gt;
                alias gi=“git add -i”&lt;br /&gt;
      命令行里：source ~/.bash_profile&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;lesson-20-merge-conflict&quot;&gt;Lesson 20: merge-conflict&lt;/h3&gt;
-&lt;p&gt;conflict的产生：在两个branch上对同一处进行了无法合并的修改并且commit了，当merge时会出现conflict&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;###Lesson 20: merge-conflict
+conflict的产生：在两个branch上对同一处进行了无法合并的修改并且commit了，当merge时会出现conflict&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;解决方法：根据git的反馈结果去自行修改冲突，选择留下来的版本&lt;br /&gt;&lt;/p&gt;
 
@@ -221,17 +179,17 @@ git checkout XXX: 切换到XXX_branch&lt;br /&gt;
 git checkout -b XXX: 创建branch_XXX，同时切换到这个branch&lt;br /&gt;
 git merge XXX: 把XXX_branch合并到当前所在的branch&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;lesson-21-guis&quot;&gt;Lesson 21: guis&lt;/h3&gt;
-&lt;p&gt;介绍了图形化的git页面，介绍了github:mac&lt;/p&gt;
+&lt;p&gt;###Lesson 21: guis
+介绍了图形化的git页面，介绍了github:mac&lt;/p&gt;
 
-&lt;h3 id=&quot;lesson-22vcprompt&quot;&gt;Lesson 22:vcprompt&lt;/h3&gt;
-&lt;p&gt;快速查看目前的git状态&lt;br /&gt;
+&lt;p&gt;###Lesson 22:vcprompt
+快速查看目前的git状态&lt;br /&gt;
 使用第三方插件： https://github.com/djl/vcprompt&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;lesson-23-conclusion&quot;&gt;Lesson 23: conclusion&lt;/h3&gt;
-&lt;p&gt;提供了一些深度学习git的资源链接&lt;/p&gt;
+&lt;p&gt;###Lesson 23: conclusion
+提供了一些深度学习git的资源链接&lt;/p&gt;
 
-&lt;h2 id=&quot;section&quot;&gt;总结&lt;/h2&gt;
+&lt;p&gt;##总结&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;了解git的底层推荐使用命令行，&lt;br /&gt;&lt;/li&gt;
@@ -239,8 +197,8 @@ git merge XXX: 把XXX_branch合并到当前所在的branch&lt;br /&gt;&lt;/p&gt;
   &lt;li&gt;在项目工作中学习Git,了解Git的重要性.&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;small-notes&quot;&gt;Small notes&lt;/h3&gt;
-&lt;p&gt;git reset –hard &lt;commit-id&gt;&lt;/commit-id&gt;&lt;/p&gt;
+&lt;p&gt;###Small notes
+git reset –hard &lt;commit-id&gt;&lt;/commit-id&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 21 Feb 2014 00:00:00 -0600</pubDate>
@@ -261,30 +219,30 @@ git merge XXX: 把XXX_branch合并到当前所在的branch&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;参考&lt;a href=&quot;http://jekyllrb.com/docs/installation/&quot;&gt;官方教程&lt;/a&gt;
 核心其实就是一句&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;问题就是，由于GFW的存在… 所以直接这样会卡死不动，而是需要我们改gem源&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sources&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;remove&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rubygems&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sources&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;taobao&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sources&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;remove&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rubygems&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sources&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;taobao&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;修改完源之后在使用gem安装jekyll，如果报错，就改为：&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;如果再报错“Failed to build gem native extension”，很可能是没有安装rvm，可以敲入下面的命令：&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;curl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;L&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rvm&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;io&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bash&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;curl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;L&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;rvm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;io&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bash&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;到此jekyll就安装完成了,下面安装一个Markdown解释器:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rdiscount&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rdiscount&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;然后在_config.yml里面设定 markdown: rdiscount&lt;/p&gt;
 
 &lt;p&gt;到此jekyll配置完成，cd到根目录下,输入下面命令即可运行。&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;server&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;watch&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;server&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;watch&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
