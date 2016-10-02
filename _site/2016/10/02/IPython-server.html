@@ -6,14 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Blogs</title>
-  <meta name="description" content="So we beat on, boats against the current, borne back ceaselessly into the past.">
+  <title>Set up Jupyter Notebook and Run IPython on Ubuntu 16.04 server</title>
+  <meta name="description" content="Steps">
   <link href="http://feeds.feedburner.com/anildigital" rel="alternate" title="Anil Wadghule" type="application/atom+xml" />
 
   <link rel="shortcut icon" href="images/favicon.ico" /> 
   <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/main_resume_cleaned.css">
-  <link rel="canonical" href="/blogs.html">
+  <link rel="canonical" href="/2016/10/02/IPython-server.html">
   <link rel="alternate" type="application/rss+xml" title="Jiaming Shen's Homepage" href="/feed.xml" />
 </head>
 
@@ -73,17 +73,49 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div id="home">
-  <h1>Blogs (3 posts)</h1>
-  <ul class="posts">
-    
-      <li><span>02 Oct 2016</span> &raquo; <a href="/2016/10/02/IPython-server.html">Set up Jupyter Notebook and Run IPython on Ubuntu 16.04 server</a></li>
-    
-      <li><span>21 Feb 2014</span> &raquo; <a href="/2014/02/21/Git.html">Git Essential</a></li>
-    
-      <li><span>19 Feb 2014</span> &raquo; <a href="/2014/02/19/Github-page-config.html">使用Github Pages + Jekyll 搭建个人Blog</a></li>
-    
-  </ul>
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Set up Jupyter Notebook and Run IPython on Ubuntu 16.04 server</h1>
+    <p class="post-meta">Oct 2, 2016</p>
+  </header>
+
+  <article class="post-content">
+    <h2 id="steps">Steps</h2>
+
+<h3 id="install-ipython-and-ipython-notebook-on-server">Install Ipython and Ipython-notebook on server</h3>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">pip</span> <span class="n">install</span> <span class="n">ipython</span>
+<span class="n">pip</span> <span class="n">install</span> <span class="s">"ipython[notebook]"</span></code></pre></figure>
+
+<h3 id="run-jupyter-notebook-on-server">Run Jupyter Notebook on server</h3>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">jupyter</span> <span class="n">notebook</span></code></pre></figure>
+
+<p><strong>Ignore the error saying no JavaScript.</strong></p>
+
+<h3 id="connect-server-using-ssh-tunneling">Connect Server Using SSH Tunneling</h3>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">ssh</span> <span class="o">-</span><span class="n">L</span> <span class="mi">8000</span><span class="p">:</span><span class="n">localhost</span><span class="p">:</span><span class="mi">8888</span> <span class="n">your_server_username</span><span class="nd">@your_server_ip</span></code></pre></figure>
+
+<h3 id="open-web-browser-on-local-machine">Open web browser on local machine</h3>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">localhost</span><span class="p">:</span><span class="mi">8000</span></code></pre></figure>
+
+<h2 id="reference">Reference</h2>
+
+<ol>
+  <li><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-a-jupyter-notebook-to-run-ipython-on-ubuntu-16-04">How To Set Up a Jupyter Notebook to Run IPython on Ubuntu 16.04</a></li>
+  <li><a href="http://cs231n.github.io/ipython-tutorial/">IPython Tutorial</a></li>
+</ol>
+
+<!--     <div class="view_comments_link">
+      <a href="/2016/10/02/IPython-server.html#disqus_thread">View Comments</a> <br />
+      <div id="disqus_thread"></div>
+      <script type="text/javascript" src="http://disqus.com/forums/anilsweblog/embed.js"></script>
+      <noscript><a href="http://anilsweblog.disqus.com/?url=ref">View the discussion thread</a></noscript>
+    </div> -->
+  </article>
 
 </div>
 
