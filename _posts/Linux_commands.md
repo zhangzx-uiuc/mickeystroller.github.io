@@ -60,6 +60,11 @@ shuf -n 1000 input.txt > output.txt (on Linux)
 grep -nr 'phrase_to_find' input.txt -m 5 (find first 5 lines that include phrase_to_find)
 ```
 
+### Grep with Regex
+```
+grep -P "^.*\t300" input.txt -m 10
+```
+
 ### Kill any process that occupies a port on **MAC**
 ```
 lsof -ti:target_port | xargs kill -9 (kill target_port process)
@@ -85,5 +90,5 @@ $ ifconfig -a
 python test.py | tee test_tee.txt
 ```
 
-
+### Check cpu/
 
