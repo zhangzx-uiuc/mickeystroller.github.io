@@ -30,6 +30,8 @@ tmux ls # list all existing seesion
 tmux a -t myname # attach to existing session
 
 ctrl+b then "d" # detach
+ctrl+b then "[" # to scroll 
+
 ```
 [tmux cheatsheet](https://gist.github.com/MohamedAlaa/2961058)
 

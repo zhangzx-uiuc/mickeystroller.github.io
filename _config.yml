@@ -1,6 +1,6 @@
 # Site settings
-title: Jiaming Shen's Homepage
-email: mickeysjm@gmail.com
+title: Jiaming Shen
+email: js2@illinois.edu
 # description: Keep it Simple
 description: So we beat on, boats against the current, borne back ceaselessly into the past.
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -47,7 +47,7 @@ resume_social_links:
   #resume_twitter_url:           "http://twitter.com/jglovier"
   # resume_dribbble_url:          "https://dribbble.com/jag"
   resume_facebook_url:          "https://www.facebook.com/profile.php?id=100005359005077"
-  # resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
+  resume_linkedin_url:          "https://www.linkedin.com/in/jiaming-shen-08186710a/"
   # resume_instagram_url:         "insert your Instagram URL here"
   resume_website_url:           "mickeystroller.github.io"
 
