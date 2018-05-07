@@ -9,6 +9,11 @@ tar -zxvf backup.tar.gz
 tar -cxvf file.txt
 ```
 
+### Compress (Linux)
+```
+tar -czvf name-of-archive.tar.gz /path/to/directory-or-file
+```
+
 ### Alias
 ```
 $ vim ~/.bash_profile
