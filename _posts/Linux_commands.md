@@ -99,3 +99,16 @@ python test.py | tee test_tee.txt
 
 ### Check cpu/
 
+### Split files into same number of lines (Linux)
+
+```
+split --number=l/6 ${fspec} xyzzy
+```
+
+### Less with line number (Linux)
+
+```
+$ less +9322 -N <fileName>
+```
+
+
