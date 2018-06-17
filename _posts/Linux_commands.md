@@ -56,6 +56,12 @@ git clone https://username@github.com/username/repository.git
 ssh -L 8000:127.0.0.1:5000 netID@dmserv4.cs.illinois.edu
 ```
 
+### Open IPython Notebook with Port
+
+```
+jupyter notebook --no-browser --port=8889
+```
+
 ### Random Sample Files
 ```
 gshuf -n 1000 input.txt > output.txt (on Mac)
@@ -105,7 +111,7 @@ python test.py | tee test_tee.txt
 split --number=l/6 ${fspec} xyzzy
 ```
 
-### Less with line number (Linux)
+### Less with line number and start with line number (Linux)
 
 ```
 $ less +9322 -N <fileName>
