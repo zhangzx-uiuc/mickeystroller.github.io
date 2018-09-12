@@ -117,4 +117,14 @@ split --number=l/6 ${fspec} xyzzy
 $ less +9322 -N <fileName>
 ```
 
+### Make the GPU device index in pytorch/tf/… consistent with nvidia-smi
 
+```
+$ export CUDA_DEVICE_ORDER="PCI_BUS_ID"
+```
+
+### Check GPU statistics
+
+```
+$ watch --color -n1.0 gpustat --color -cu
+```
