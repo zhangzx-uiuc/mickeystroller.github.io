@@ -5,8 +5,8 @@
     <description>So we beat on, boats against the current, borne back ceaselessly into the past.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 14 Sep 2018 14:06:12 -0500</pubDate>
-    <lastBuildDate>Fri, 14 Sep 2018 14:06:12 -0500</lastBuildDate>
+    <pubDate>Tue, 18 Sep 2018 00:04:50 -0700</pubDate>
+    <lastBuildDate>Tue, 18 Sep 2018 00:04:50 -0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -39,7 +39,7 @@
   &lt;li&gt;&lt;a href=&quot;http://cs231n.github.io/ipython-tutorial/&quot;&gt;IPython Tutorial&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-        <pubDate>Sun, 02 Oct 2016 00:00:00 -0500</pubDate>
+        <pubDate>Sun, 02 Oct 2016 00:00:00 -0700</pubDate>
         <link>/2016/10/02/IPython-server.html</link>
         <guid isPermaLink="true">/2016/10/02/IPython-server.html</guid>
         
