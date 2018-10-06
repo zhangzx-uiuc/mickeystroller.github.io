@@ -493,9 +493,9 @@
 }
 .content-section .resume-item-title a,.content-section .resume-item-details a,.content-section .resume-item-copy a,.content-section .resume-item-list a
 {
-	color:#333;
+	/*color:#333;*/
 	text-decoration:none;
-	border-bottom:1px solid
+	/*border-bottom:1px solid*/
 }
 .content-section .resume-item-title a:hover,.content-section .resume-item-details a:hover,.content-section .resume-item-copy a:hover,.content-section .resume-item-list a:hover
 {

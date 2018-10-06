@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="wrapper">
+
+	  <link rel="stylesheet" href="{{ "/css/main_resume_cleaned.css" | prepend: site.baseurl }}">
+  
+  
+
+      
+      {% if site.resume_section_recognition %}
+      <!-- begin Selected Awards -->
+      <section class="content-section" style="margin-top:30px;">
+
+        <header class="section-header">
+          <h2>Selected Awards</h2>
+        </header>
+        
+		    <div class="resume-item">
+          <ul class="resume-item-list" style="font-size: 18px;">
+            <li>ACM SIGIR Travel Award &bull; 2018 </li>
+            <li>Brian Totty Graduate Fellowship &bull; 2016 -- 2017 </li>
+            <li>Tang lixin Scholarship (Top 1%) &bull; 2016 -- 2021 </li>
+            <ul style="margin-bottom: 0px;">
+              <li><b>A five-year continuous funding during my entire PhD study</b></li>
+            </ul>
+            <li>Chuntsung Scholarship (Top 1%) &bull; 2015 -- 2016 </li>
+            <li>Excellent Undergraduate Thesis Award (Top 3%) &bull; 2016 </li>
+            <li>National Scholarship (Top 1%) &bull; 2013 -- 2014 & 2014 -- 2015 </li>
+            <ul style="margin-bottom: 0px;">
+              <li><b>The highest honor for students in SJTU</b></li>
+            </ul>
+			      <li>Academic Excellence Scholarship (Type A) of SJTU (Top 1%) &bull; 2013 -- 2014 & 2014 -- 2015 </li>
+            <li>Arawana Scholarship (Top 5%) &bull; 2012-2013 </li>
+			      <li>“Merit Student” of SJTU  &bull; 2012 -- 2013 & 2013 -- 2014 </li>
+            <li>Honorable Mention in 2015 Interdisciplinary Contest In Modeling &bull; 2015</li>
+			      <li>Second Prize in China Undergraduate Mathematical Contest in Modeling &bull; 2014</li>
+            <!-- <li>Third Prize in National Undergraduate Physics Competition &bull; 2013</li> -->
+            <li>Arawana Scholrship (Top 5%) &bull; 2012 -- 2013</li>
+          </ul>
+        </div>
+
+      </section>
+      <!-- end Selected Awards -->
+      {% endif %}
+      
+
+      
+
+
+
+    </div>
+	  {% include footer.html %}
+	
+		<!-- {% include disqus.html %} -->
+
+    {% include ga.html %}
+    
+
+  </body>
+
+</html>

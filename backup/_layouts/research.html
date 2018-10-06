@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="wrapper">
+
+	  <link rel="stylesheet" href="{{ "/css/main_resume_cleaned.css" | prepend: site.baseurl }}">
+  
+      <!-- begin Experience -->
+      <section class="content-section" style="margin-top:30px;">
+
+        <header class="section-header">
+          <h2>Research</h2>
+        </header>
+
+		<!-- Research Summary -->
+        <div class="executive-summary" style="font-size:17px;">
+          <p>My research interest is primarily text mining, information retrieval system, mathematical optimization. I am currently working on a faceted taxonomy construction and entity-aware information retrieval system. 
+          	 My previous researches were mainly about topic modeling, community detection, and learning to rank. 
+          </p>
+        </div>
+        
+        <!-- horizontal line -->
+        <div style="border-bottom: 1px solid #c7c7c7; margin-bottom: 1.5rem"></div>
+        
+        
+        <!-- Topic-based Academic Search Engine -->
+        <div class="resume-item">
+          <h3 class="resume-item-title">Topic-based Academic Information Retrieval System</h3>
+          <h4 class="resume-item-details">Supervised by Prof. Xinbing Wang &bull; Sep, 2015 &mdash; Jun, 2016</h4>
+          <table>
+          	<tbody>
+          		<tr>
+          			<td><p>I am currently developing a topic-based search engine to improve academic search experience.<p>
+
+		<p>The objectives of this system are mainly:<p>
+          <ul class="resume-item-list">
+            <li>Return paper search results based on both word-level and topic-level similarity with user’s query.</li>
+            <li>Rank papers according to their influence scores as well as their relevance to the query. </li>
+            <li>Visualize the topic distribution of each paper and topic evolution among the whole corpus.</li>
+          </ul>
+          			</td>
+          			<td style="width:340px">
+          			<img src="/images/se.jpg" style="display:block; margin-left:15px; width:340px">
+          			</td>
+          		</tr>
+          	</tbody>
+          </table>
+        </div><!-- end of resume-item -->
+
+ 		<!-- horizontal line -->
+        <div style="border-bottom: 1px solid #c7c7c7; margin-bottom: 1.5rem"></div>
+
+
+        <!-- Modeling Academic Influence in Scientific Literatures -->
+        <div class="resume-item">
+          <h3 class="resume-item-title">Modeling Academic Influence in Scientific Literatures</h3>
+          <h4 class="resume-item-details">Supervised by Prof. Xinbing Wang &bull; Apr, 2015 &mdash; Sep, 2015</h4>
+
+
+          <p class="resume-item-copy">
+          Scientific articles are not born equal. Some generate an entire discipline while others make relatively fewer contributions. We studied the problem of identifying those important articles and understanding how they influence others.
+          </p>
+	
+		  <p class="resume-item-copy"> The main contributions of this work include:</p>
+		  
+          <ul class="resume-item-list">
+            <li>Devised a generative model to utilize both the textual content and citation information in scientific literatures.</li>
+            <li>Proposed a fast inference algorithm to learn this generative model based on collapsed Gibbs Sampling.</li>
+            <li>Introduced a novel quantitative metric named J-Index to model academic influence in scientific literatures.</li>
+			<li>Designed experiments on a collection of over 420,000 research papers to validate the effectiveness of J-Index.</li>
+          </ul>
+          
+          <p class="resume-item-copy"> This work was submitted to AAAI 2016.</p>
+          <div align="center"><img src="/images/J-index-1.jpg" style="max-width:90%"></div>
+          
+        </div><!-- end of resume-item -->
+
+		<!-- horizontal line -->
+        <div style="border-bottom: 1px solid #c7c7c7; margin-bottom: 1.5rem"></div>
+        
+        <!-- Exponential Interest Aggregation for Hop-by-hop Congestion Control in Named Data Networking. -->
+        <div class="resume-item">
+          <h3 class="resume-item-title">Exponential Interest Aggregation for Hop-by-hop Congestion Control in Named Data Networking</h3>
+          <h4 class="resume-item-details">Supervised by Prof. Weijia Jia &bull; Apr, 2015 &mdash; Jul, 2015</h4>
+
+		 <p class="resume-item-copy">
+          Named Data Networking (NDN) is a Future Internet architecture aiming to satisfy the new requirement of content communication. We studied the problem of congestion control when designing NDN transport protocol.
+          </p>
+	
+		  <p class="resume-item-copy"> The main contributions of this work include:</p>
+		  
+		  <ul class="resume-item-list">
+            <li>Established the Interest aggregation state transition framework in Named Data Networking.</li>
+            <li>Proposed Exponential Interest Aggregation (EIA), an adaptive forwarding strategy addressing NDN congestion control problem in a hop-by-hop manner.</li>
+            <li>Analyzed the effectiveness of EIA algorithm mathematically under the Interest aggregation state transition framework.</li>
+			<li>Conducted simulation to evaluate the performance of EIA and showed that EIA improves average delay by 13%, average number of retransmission by 25%, and cache hit ratio by 61%.</li>
+          </ul>
+          <p class="resume-item-copy">This work was submitted to IEEE INFOCOM 2016.</p>
+          
+          
+          <div align="center"><img src="/images/EIA-1.jpg" style="max-width:100%"></div>
+          <div align="center"><img src="/images/EIA-2.jpg" style="max-width:90%"></div>
+
+        </div><!-- end of resume-item -->
+
+      </section>
+      <!-- end Experience -->
+
+
+    </div>
+	  {% include footer.html %}
+	
+		<!-- {% include disqus.html %} -->
+
+    {% include ga.html %}
+    
+
+  </body>
+
+</html>

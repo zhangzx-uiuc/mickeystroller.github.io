@@ -2,22 +2,34 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>/2016/10/02/IPython-server.html</loc>
-    <lastmod>2016-10-02T00:00:00-07:00</lastmod>
+    <lastmod>2016-10-02T00:00:00-05:00</lastmod>
+  </url>
+  <url>
+    <loc>/aboutme.html</loc>
+  </url>
+  <url>
+    <loc>/awards.html</loc>
   </url>
   <url>
     <loc>/blogs.html</loc>
   </url>
   <url>
-    <loc>/cv.html</loc>
+    <loc>/backup/cv.html</loc>
   </url>
   <url>
     <loc>/</loc>
   </url>
   <url>
-    <loc>/projects.html</loc>
+    <loc>/backup/</loc>
   </url>
   <url>
-    <loc>/research.html</loc>
+    <loc>/backup/projects.html</loc>
+  </url>
+  <url>
+    <loc>/publications.html</loc>
+  </url>
+  <url>
+    <loc>/backup/research.html</loc>
   </url>
     <url>
       <loc>/2016/10/02/IPython-server.html</loc>
