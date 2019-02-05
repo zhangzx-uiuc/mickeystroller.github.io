@@ -36,6 +36,7 @@ tmux a -t myname # attach to existing session
 
 ctrl+b then "d" # detach
 ctrl+b then "[" # to scroll 
+ctrl+b then "z" # to expand windows
 
 ```
 [tmux cheatsheet](https://gist.github.com/MohamedAlaa/2961058)
@@ -127,4 +128,10 @@ $ export CUDA_DEVICE_ORDER="PCI_BUS_ID"
 
 ```
 $ watch --color -n1.0 gpustat --color -cu
+```
+
+### Link files (avoid copy)
+
+```
+$ ln -s source destination
 ```
