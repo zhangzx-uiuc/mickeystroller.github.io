@@ -5,7 +5,7 @@ email: js2@illinois.edu
 description: So we beat on, boats against the current, borne back ceaselessly into the past.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url:  # the base hostname & protocol for your site
-twitter_username: 
+twitter_username: mickeyjs6
 github_username:  mickeystroller
 
 # Build settings
@@ -26,7 +26,7 @@ resume_contact_email:
 # "no" to display an "I'm not looking for work" message,
 # or remove the resume_looking_for_work option entirely
 # to leave blank
-resume_looking_for_work:        "yes"
+resume_looking_for_work:        "no"
 
 # Decide which sections to use
 # comment out to hide (Experience is not shown
@@ -44,7 +44,7 @@ resume_section_associations:    true
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
   resume_github_url:            "https://github.com/mickeystroller"
-  #resume_twitter_url:           "http://twitter.com/jglovier"
+  resume_twitter_url:           "https://twitter.com/mickeyjs6"
   # resume_dribbble_url:          "https://dribbble.com/jag"
   resume_facebook_url:          "https://www.facebook.com/profile.php?id=100005359005077"
   resume_linkedin_url:          "https://www.linkedin.com/in/jiaming-shen-08186710a/"
