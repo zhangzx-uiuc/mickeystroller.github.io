@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>/2019/05/25/Notes-on-Paper-A-Sparse-Sampling-Algorithm-for-Near-Optimal-Planning-in-Large-MDPs.html</loc>
+    <lastmod>2019-05-25T00:00:00-07:00</lastmod>
+  </url>
+  <url>
     <loc>/2016/10/02/IPython-server.html</loc>
-    <lastmod>2016-10-02T00:00:00-05:00</lastmod>
+    <lastmod>2016-10-02T00:00:00-07:00</lastmod>
   </url>
   <url>
     <loc>/aboutme.html</loc>
@@ -33,5 +37,8 @@
   </url>
     <url>
       <loc>/2016/10/02/IPython-server.html</loc>
+    </url>
+    <url>
+      <loc>/2019/05/25/Notes-on-Paper-A-Sparse-Sampling-Algorithm-for-Near-Optimal-Planning-in-Large-MDPs.html</loc>
     </url>
 </urlset>

@@ -5,9 +5,28 @@
     <description>So we beat on, boats against the current, borne back ceaselessly into the past.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 Feb 2019 16:42:15 -0600</pubDate>
-    <lastBuildDate>Tue, 05 Feb 2019 16:42:15 -0600</lastBuildDate>
+    <pubDate>Sun, 26 May 2019 14:55:19 -0700</pubDate>
+    <lastBuildDate>Sun, 26 May 2019 14:55:19 -0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Notes on a classic paper &quot;A Sparse Sampling Algorithm for Near Optimal Planning in Large MDPs&quot;</title>
+        <description>&lt;h2 id=&quot;why-i-write-this-note&quot;&gt;Why I write this note?&lt;/h2&gt;
+&lt;p&gt;In Spring 2019, I took a seminar class &lt;a href=&quot;http://nanjiang.cs.illinois.edu/cs598/&quot; target=&quot;_blank&quot;&gt;CS598: Statistical Reinforcement Learning&lt;/a&gt; given by &lt;a href=&quot;http://nanjiang.cs.illinois.edu/&quot; target=&quot;_blank&quot;&gt;Prof. Nan Jiang&lt;/a&gt;. 
+This class covers the theortical fundations of many topics in reinforcement learning such as planning, certainty-equivalence, state abstraction, fitted Q-iteration, exploration, and partial observability. 
+I learned a lot in the class and really enjoyed it. 
+In addition, this class includes a final project that requires us to either reproduce the proofs of an existing paper or conduct a novel research with &lt;em&gt;significant theoretical component&lt;/em&gt;. 
+Since I have no background on reinforcement learning theory, I decide to take the former type of project and reproduce the proofs of a classic paper in details.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-i-choose-this-paper&quot;&gt;Why I choose this paper?&lt;/h2&gt;
+&lt;p&gt;Probably the first thing I learned in the class is the difference between &lt;em&gt;learning&lt;/em&gt; and &lt;em&gt;planning&lt;/em&gt;. If the environment (or the model) is known, we do &lt;em&gt;planning&lt;/em&gt;, otherwise, we do &lt;em&gt;learning&lt;/em&gt;. Arguably the former &lt;em&gt;planning&lt;/em&gt; setting is easier than &lt;em&gt;learning&lt;/em&gt; setting as we have&lt;/p&gt;
+</description>
+        <pubDate>Sat, 25 May 2019 00:00:00 -0700</pubDate>
+        <link>/2019/05/25/Notes-on-Paper-A-Sparse-Sampling-Algorithm-for-Near-Optimal-Planning-in-Large-MDPs.html</link>
+        <guid isPermaLink="true">/2019/05/25/Notes-on-Paper-A-Sparse-Sampling-Algorithm-for-Near-Optimal-Planning-in-Large-MDPs.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Set up Jupyter Notebook and Run IPython on Ubuntu 16.04 server</title>
@@ -39,7 +58,7 @@
   &lt;li&gt;&lt;a href=&quot;http://cs231n.github.io/ipython-tutorial/&quot;&gt;IPython Tutorial&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-        <pubDate>Sun, 02 Oct 2016 00:00:00 -0500</pubDate>
+        <pubDate>Sun, 02 Oct 2016 00:00:00 -0700</pubDate>
         <link>/2016/10/02/IPython-server.html</link>
         <guid isPermaLink="true">/2016/10/02/IPython-server.html</guid>
         

@@ -14,6 +14,11 @@ tar -cxvf file.txt
 tar -czvf name-of-archive.tar.gz /path/to/directory-or-file
 ```
 
+### Find where a package is installed (Ubuntu)
+```
+dpkg -L <packagename>
+```
+
 ### Alias
 ```
 $ vim ~/.bash_profile
@@ -97,6 +102,11 @@ deactivate # end
 ### Show IP address on Ubuntu
 ```
 $ ifconfig -a
+```
+
+### Scan Port 
+```
+nmap -p 1-512 0.0.0.0
 ```
 
 ### Print results on terminal and save to file
