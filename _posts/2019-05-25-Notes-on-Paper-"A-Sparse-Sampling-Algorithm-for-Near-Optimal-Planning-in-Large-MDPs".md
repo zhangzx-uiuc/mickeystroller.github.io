@@ -13,4 +13,8 @@ Since I have no background on reinforcement learning theory, I decide to take th
 
 Why I choose this paper?
 ---
-Probably the first thing I learned in the class is the difference between *learning* and *planning*. If the environment (or the model) is known, we do *planning*, otherwise, we do *learning*. Arguably the former *planning* setting is easier than *learning* setting as we have 
+Probably the first thing I learned in the class is the difference between *learning* and *planning*. If the environment (or the model) is known, we do *planning*, otherwise, we do *learning*. This paper is particularly interesting as it studies a setting that we do have the environment information but **only through the access to a simulator**. As a result, we avoid the need to explicitly specifiy the huge environment. 
+
+Talk is cheap. Show me the math. [<a href="\resources\CS598NJ\sparsesampling-journal.pdf" target="_blank">Original Paper</a>], [<a href="\resources\CS598NJ\report.pdf" target="_blank">My Note</a>], 
+[<a href="\resources\CS598NJ\source.zip" target="_blank">LaTex Source</a>].
+
