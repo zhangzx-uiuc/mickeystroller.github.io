@@ -145,3 +145,23 @@ $ watch --color -n1.0 gpustat --color -cu
 ```
 $ ln -s source destination
 ```
+
+### Change timezone on Linux
+
+```
+$ sudo timedatectl set-timezone America/Chicago
+```
+
+### Change user password on Linux
+
+```
+$ sudo timedatectl set-timezone America/Chicago
+```
+
+### Check Tmux Version on Linux
+
+```
+$ tmux -V
+```
+
+

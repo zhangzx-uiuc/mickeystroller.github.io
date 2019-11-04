@@ -5,8 +5,8 @@
     <description>So we beat on, boats against the current, borne back ceaselessly into the past.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 26 May 2019 14:55:19 -0700</pubDate>
-    <lastBuildDate>Sun, 26 May 2019 14:55:19 -0700</lastBuildDate>
+    <pubDate>Sun, 03 Nov 2019 22:12:12 -0600</pubDate>
+    <lastBuildDate>Sun, 03 Nov 2019 22:12:12 -0600</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -19,9 +19,13 @@ In addition, this class includes a final project that requires us to either repr
 Since I have no background on reinforcement learning theory, I decide to take the former type of project and reproduce the proofs of a classic paper in details.&lt;/p&gt;
 
 &lt;h2 id=&quot;why-i-choose-this-paper&quot;&gt;Why I choose this paper?&lt;/h2&gt;
-&lt;p&gt;Probably the first thing I learned in the class is the difference between &lt;em&gt;learning&lt;/em&gt; and &lt;em&gt;planning&lt;/em&gt;. If the environment (or the model) is known, we do &lt;em&gt;planning&lt;/em&gt;, otherwise, we do &lt;em&gt;learning&lt;/em&gt;. Arguably the former &lt;em&gt;planning&lt;/em&gt; setting is easier than &lt;em&gt;learning&lt;/em&gt; setting as we have&lt;/p&gt;
+&lt;p&gt;Probably the first thing I learned in the class is the difference between &lt;em&gt;learning&lt;/em&gt; and &lt;em&gt;planning&lt;/em&gt;. If the environment (or the model) is known, we do &lt;em&gt;planning&lt;/em&gt;, otherwise, we do &lt;em&gt;learning&lt;/em&gt;. This paper is particularly interesting as it studies a setting that we do have the environment information but &lt;strong&gt;only through the access to a simulator&lt;/strong&gt;. As a result, we avoid the need to explicitly specifiy the huge environment.&lt;/p&gt;
+
+&lt;p&gt;Talk is cheap. Show me the math. [&lt;a href=&quot;\resources\CS598NJ\sparsesampling-journal.pdf&quot; target=&quot;_blank&quot;&gt;Original Paper&lt;/a&gt;], [&lt;a href=&quot;\resources\CS598NJ\report.pdf&quot; target=&quot;_blank&quot;&gt;My Note&lt;/a&gt;], 
+[&lt;a href=&quot;\resources\CS598NJ\source.zip&quot; target=&quot;_blank&quot;&gt;LaTex Source&lt;/a&gt;].&lt;/p&gt;
+
 </description>
-        <pubDate>Sat, 25 May 2019 00:00:00 -0700</pubDate>
+        <pubDate>Sat, 25 May 2019 00:00:00 -0500</pubDate>
         <link>/2019/05/25/Notes-on-Paper-A-Sparse-Sampling-Algorithm-for-Near-Optimal-Planning-in-Large-MDPs.html</link>
         <guid isPermaLink="true">/2019/05/25/Notes-on-Paper-A-Sparse-Sampling-Algorithm-for-Near-Optimal-Planning-in-Large-MDPs.html</guid>
         
@@ -58,7 +62,7 @@ Since I have no background on reinforcement learning theory, I decide to take th
   &lt;li&gt;&lt;a href=&quot;http://cs231n.github.io/ipython-tutorial/&quot;&gt;IPython Tutorial&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-        <pubDate>Sun, 02 Oct 2016 00:00:00 -0700</pubDate>
+        <pubDate>Sun, 02 Oct 2016 00:00:00 -0500</pubDate>
         <link>/2016/10/02/IPython-server.html</link>
         <guid isPermaLink="true">/2016/10/02/IPython-server.html</guid>
         
