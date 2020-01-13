@@ -9,6 +9,7 @@ tar -zxvf backup.tar.gz
 tar -cxvf file.txt
 ```
 
+
 ### Compress (Linux)
 ```
 tar -czvf name-of-archive.tar.gz /path/to/directory-or-file
@@ -147,12 +148,6 @@ $ ln -s source destination
 ```
 
 ### Change timezone on Linux
-
-```
-$ sudo timedatectl set-timezone America/Chicago
-```
-
-### Change user password on Linux
 
 ```
 $ sudo timedatectl set-timezone America/Chicago
