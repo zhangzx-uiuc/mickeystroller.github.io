@@ -159,4 +159,8 @@ $ sudo timedatectl set-timezone America/Chicago
 $ tmux -V
 ```
 
+### Run on GPU:1
 
+```
+$ CUDA_VISIBLE_DEVICES=1 python XXX
+```
