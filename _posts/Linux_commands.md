@@ -1,18 +1,23 @@
-### Decompress
+### Compress (Mac)
+```
+tar -cxvf file.txt
+```
+
+### Compress (Linux)
+```
+tar -czvf name-of-archive.tar.gz /path/to/directory-or-file
+```
+
+### Decompress .tar.gz
 
 ```
 tar -zxvf backup.tar.gz 
 ```
 
-### Compress
-```
-tar -cxvf file.txt
-```
+### Decompress .gz
 
-
-### Compress (Linux)
 ```
-tar -czvf name-of-archive.tar.gz /path/to/directory-or-file
+gunzip backup.gz
 ```
 
 ### Find where a package is installed (Ubuntu)
@@ -163,4 +168,10 @@ $ tmux -V
 
 ```
 $ CUDA_VISIBLE_DEVICES=1 python XXX
+```
+
+### Recursively download
+
+```
+$ wget -r -np -R "index.html*" http://example.com/configs/.vim/
 ```
