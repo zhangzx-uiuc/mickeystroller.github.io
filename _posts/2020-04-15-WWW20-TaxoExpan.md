@@ -15,6 +15,7 @@ We aim to develop an automated method that expands an existing taxonomy to incor
 
 ![TaxoExpan-Task](https://github.com/mickeystroller/mickeystroller.github.io/blob/master/images/TaxoExpan-task.pdf?raw=True)
 
+<a href="/images/TaxoExpan-task.pdf" type="application/pdf"><img src="/images/TaxoExpan-task.pdf"> </a>
 
 ## Our Approach
 
