@@ -99,7 +99,7 @@ However, as human knowledge is constantly growing, existing taxonomies will beco
 
 <p>We aim to develop an automated method that expands an existing taxonomy to incorporate a set of new concepts. Take the below figure as an example. We are given a Computer Science field-of-study taxonomy and we expand it to incorporate new concepts (e.g., <em>UDA</em>, <em>Meta Learning</em>, <em>TPU</em>) by finding their more appropriate parents (e.g., <em>UDA</em> under <em>Semi-supervised Learning</em>, <em>Meta Learning</em> under <em>Machine Learning</em>, and <em>TPU</em> under <em>Integrated Circuit</em>).</p>
 
-<p><img src="https://github.com/mickeystroller/mickeystroller.github.io/blob/master/images/TaxoExpan-task?raw=True" alt="TaxoExpan-Task" /></p>
+<p><img src="/images/TaxoExpan-task.jpg?raw=True" alt="TaxoExpan-Task" /></p>
 
 <h2 id="our-approach">Our Approach</h2>
 
@@ -109,13 +109,13 @@ However, as human knowledge is constantly growing, existing taxonomies will beco
 
 <p>Below the architecture of our matching model. Notably, we leverage the ego network (egonet) centered around the “anchor concept” to capture its neighborhood information. This egonet is then passed though a graph propagation module and a graph readout module to generate a summary vector that serves as the anchor representation. Finally, this anchor representation is combined with the query concept representation and fed into a matching module (e.g., multi-layer perceptron or log-bilinear model) to output the final matching degree.</p>
 
-<p><img src="https://github.com/mickeystroller/mickeystroller.github.io/blob/master/images/TaxoExpan-matchmodel?raw=True" alt="TaxoExpan-matchmodel" /></p>
+<p><img src="https://github.com/mickeystroller/mickeystroller.github.io/blob/master/images/TaxoExpan-matchmodel.jpg?raw=True" alt="TaxoExpan-matchmodel" /></p>
 
 <h3 id="self-supervised-training">Self-supervised Training</h3>
 
 <p>To train the above matching model, we generate self-supervision data from the existing taxonomy. Take the below figure as an example, we first randomly select an edge in the taxonomy (e.g., &lt;<em>room</em>, <em>gallery</em>&gt;) as the positive pair. Then, we construct <em>K</em> negative pairs by treating the child node in the selected edge (i.e., <em>gallery</em>) as the query and randomly selecting a set of <em>K</em> nodes that are neither parents nor descendants of this query. After that, we group these <em>K+1</em> pairs (one positive and <em>K</em> negatives) into one training instance and repeat the above process to generate multiple instances. Finally, we learn the model based on <a href="https://arxiv.org/pdf/1807.03748.pdf" target="_blank">InfoNCE loss</a> using generated self-supervision data.</p>
 
-<p><img src="https://github.com/mickeystroller/mickeystroller.github.io/blob/master/images/TaxoExpan-supervision?raw=True" alt="TaxoExpan-supervision" /></p>
+<p><img src="https://github.com/mickeystroller/mickeystroller.github.io/blob/master/images/TaxoExpan-supervision.jpg?raw=True" alt="TaxoExpan-supervision" /></p>
 
 <h2 id="experiments">Experiments</h2>
 
@@ -242,11 +242,11 @@ However, as human knowledge is constantly growing, existing taxonomies will beco
 
 <p><strong>Expanded Computer Science Taxonomy</strong></p>
 
-<p><img src="https://github.com/mickeystroller/mickeystroller.github.io/blob/master/images/TaxoExpan-MAG-CS?raw=True" alt="TaxoExpan-MAG-CS" /></p>
+<p><img src="https://github.com/mickeystroller/mickeystroller.github.io/blob/master/images/TaxoExpan-MAG-CS.jpg?raw=True" alt="TaxoExpan-MAG-CS" /></p>
 
 <p><strong>Expanded All Scienetific Fields Taxonomy</strong></p>
 
-<p><img src="https://github.com/mickeystroller/mickeystroller.github.io/blob/master/images/TaxoExpan-MAG-Full?raw=True" alt="TaxoExpan-MAG-Full" /></p>
+<p><img src="https://github.com/mickeystroller/mickeystroller.github.io/blob/master/images/TaxoExpan-MAG-Full.jpg?raw=True" alt="TaxoExpan-MAG-Full" /></p>
 
 <h2 id="related-materials">Related Materials</h2>
 

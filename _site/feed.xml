@@ -5,8 +5,8 @@
     <description>So we beat on, boats against the current, borne back ceaselessly into the past.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 16 Apr 2020 01:40:16 -0500</pubDate>
-    <lastBuildDate>Thu, 16 Apr 2020 01:40:16 -0500</lastBuildDate>
+    <pubDate>Thu, 27 Aug 2020 14:26:38 -0500</pubDate>
+    <lastBuildDate>Thu, 27 Aug 2020 14:26:38 -0500</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -21,7 +21,7 @@ However, as human knowledge is constantly growing, existing taxonomies will beco
 
 &lt;p&gt;We aim to develop an automated method that expands an existing taxonomy to incorporate a set of new concepts. Take the below figure as an example. We are given a Computer Science field-of-study taxonomy and we expand it to incorporate new concepts (e.g., &lt;em&gt;UDA&lt;/em&gt;, &lt;em&gt;Meta Learning&lt;/em&gt;, &lt;em&gt;TPU&lt;/em&gt;) by finding their more appropriate parents (e.g., &lt;em&gt;UDA&lt;/em&gt; under &lt;em&gt;Semi-supervised Learning&lt;/em&gt;, &lt;em&gt;Meta Learning&lt;/em&gt; under &lt;em&gt;Machine Learning&lt;/em&gt;, and &lt;em&gt;TPU&lt;/em&gt; under &lt;em&gt;Integrated Circuit&lt;/em&gt;).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/mickeystroller/mickeystroller.github.io/blob/master/images/TaxoExpan-task?raw=True&quot; alt=&quot;TaxoExpan-Task&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/TaxoExpan-task.jpg?raw=True&quot; alt=&quot;TaxoExpan-Task&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;our-approach&quot;&gt;Our Approach&lt;/h2&gt;
 
@@ -31,13 +31,13 @@ However, as human knowledge is constantly growing, existing taxonomies will beco
 
 &lt;p&gt;Below the architecture of our matching model. Notably, we leverage the ego network (egonet) centered around the “anchor concept” to capture its neighborhood information. This egonet is then passed though a graph propagation module and a graph readout module to generate a summary vector that serves as the anchor representation. Finally, this anchor representation is combined with the query concept representation and fed into a matching module (e.g., multi-layer perceptron or log-bilinear model) to output the final matching degree.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/mickeystroller/mickeystroller.github.io/blob/master/images/TaxoExpan-matchmodel?raw=True&quot; alt=&quot;TaxoExpan-matchmodel&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://github.com/mickeystroller/mickeystroller.github.io/blob/master/images/TaxoExpan-matchmodel.jpg?raw=True&quot; alt=&quot;TaxoExpan-matchmodel&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;self-supervised-training&quot;&gt;Self-supervised Training&lt;/h3&gt;
 
 &lt;p&gt;To train the above matching model, we generate self-supervision data from the existing taxonomy. Take the below figure as an example, we first randomly select an edge in the taxonomy (e.g., &amp;lt;&lt;em&gt;room&lt;/em&gt;, &lt;em&gt;gallery&lt;/em&gt;&amp;gt;) as the positive pair. Then, we construct &lt;em&gt;K&lt;/em&gt; negative pairs by treating the child node in the selected edge (i.e., &lt;em&gt;gallery&lt;/em&gt;) as the query and randomly selecting a set of &lt;em&gt;K&lt;/em&gt; nodes that are neither parents nor descendants of this query. After that, we group these &lt;em&gt;K+1&lt;/em&gt; pairs (one positive and &lt;em&gt;K&lt;/em&gt; negatives) into one training instance and repeat the above process to generate multiple instances. Finally, we learn the model based on &lt;a href=&quot;https://arxiv.org/pdf/1807.03748.pdf&quot; target=&quot;_blank&quot;&gt;InfoNCE loss&lt;/a&gt; using generated self-supervision data.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/mickeystroller/mickeystroller.github.io/blob/master/images/TaxoExpan-supervision?raw=True&quot; alt=&quot;TaxoExpan-supervision&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://github.com/mickeystroller/mickeystroller.github.io/blob/master/images/TaxoExpan-supervision.jpg?raw=True&quot; alt=&quot;TaxoExpan-supervision&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;experiments&quot;&gt;Experiments&lt;/h2&gt;
 
@@ -164,11 +164,11 @@ However, as human knowledge is constantly growing, existing taxonomies will beco
 
 &lt;p&gt;&lt;strong&gt;Expanded Computer Science Taxonomy&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/mickeystroller/mickeystroller.github.io/blob/master/images/TaxoExpan-MAG-CS?raw=True&quot; alt=&quot;TaxoExpan-MAG-CS&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://github.com/mickeystroller/mickeystroller.github.io/blob/master/images/TaxoExpan-MAG-CS.jpg?raw=True&quot; alt=&quot;TaxoExpan-MAG-CS&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Expanded All Scienetific Fields Taxonomy&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/mickeystroller/mickeystroller.github.io/blob/master/images/TaxoExpan-MAG-Full?raw=True&quot; alt=&quot;TaxoExpan-MAG-Full&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://github.com/mickeystroller/mickeystroller.github.io/blob/master/images/TaxoExpan-MAG-Full.jpg?raw=True&quot; alt=&quot;TaxoExpan-MAG-Full&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;related-materials&quot;&gt;Related Materials&lt;/h2&gt;
 

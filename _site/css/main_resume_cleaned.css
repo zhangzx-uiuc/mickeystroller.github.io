@@ -169,6 +169,19 @@
 {
 	font-weight:bold
 }
+	table tr td.index
+{
+	border: 0px;
+	text-align: left;
+	font-size: 18px;
+}
+	table tr th.index
+{
+	border: 0px;
+	text-align: left;
+	font-size: 18px;
+}
+
 	table tr td
 {
 	border: 1.5px solid black;
