@@ -1,12 +1,12 @@
 # Site settings
-title: Jiaming Shen
-email: js2@illinois.edu
+title: Zixuan Zhang
+email: zixuan11@illinois.edu
 # description: Keep it Simple
-description: So we beat on, boats against the current, borne back ceaselessly into the past.
+description: Do one thing at a time, and do it for the best.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url:  # the base hostname & protocol for your site
-twitter_username: mickeyjs6
-github_username:  mickeystroller
+twitter_username: 
+github_username:  zhangzx-uiuc
 
 # Build settings
 markdown: kramdown
@@ -17,7 +17,7 @@ gems:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Jiaming Shen"
+resume_name:                    "Zixuan Zhang"
 resume_title:                   "Computer Scientist"
 resume_contact_email:
   "mickesyjm@gmail.com"
@@ -49,7 +49,7 @@ resume_social_links:
   resume_facebook_url:          "https://www.facebook.com/profile.php?id=100005359005077"
   resume_linkedin_url:          "https://www.linkedin.com/in/jiaming-shen-08186710a/"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "mickeystroller.github.io"
+  resume_website_url:           "zhangzx-uiuc.github.io"
 
 # Design settings
 resume_theme:                   default
