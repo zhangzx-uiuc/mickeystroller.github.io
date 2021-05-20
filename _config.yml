@@ -20,7 +20,7 @@ resume_avatar:                  "true"
 resume_name:                    "Zixuan Zhang"
 resume_title:                   "Computer Scientist"
 resume_contact_email:
-  "mickesyjm@gmail.com"
+  "zhangzx.sjtu@gmail.com"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -43,11 +43,11 @@ resume_section_associations:    true
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/mickeystroller"
-  resume_twitter_url:           "https://twitter.com/mickeyjs6"
+  resume_github_url:            "https://github.com/zhangzx-uiuc"
+  resume_twitter_url:           "https://twitter.com/"
   # resume_dribbble_url:          "https://dribbble.com/jag"
-  resume_facebook_url:          "https://www.facebook.com/profile.php?id=100005359005077"
-  resume_linkedin_url:          "https://www.linkedin.com/in/jiaming-shen-08186710a/"
+  resume_facebook_url:          "https://www.facebook.com/"
+  resume_linkedin_url:          "https://https://www.linkedin.com/in/zixuan-zhang-80458b195"
   # resume_instagram_url:         "insert your Instagram URL here"
   resume_website_url:           "zhangzx-uiuc.github.io"
 
